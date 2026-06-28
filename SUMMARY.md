@@ -39,9 +39,9 @@
   - [The Insurgent's Handbook](resources/insurgents-handbook.md)
 
 - [Examples & Guides](examples/README.md)
-  - [EBP Full Modding Process](examples/ebp-modding-example.md)
-  - [The Insurgent's Forge Function](examples/forge-modding-example.md)
   - [Lua Modding Example](examples/lua-modding-example.md)
+  - [The Insurgent's Forge Function Example](examples/forge-modding-example.md)
+  - [EBP Modding Example](examples/ebp-modding-example.md)
 
 ## Packing and Distributing
 
