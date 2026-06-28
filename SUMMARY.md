@@ -12,6 +12,8 @@
 - [Modding Folder Structure](getting-started/modding-folder-structure.md)
 - [Creating a Lua Mod](getting-started/creating-lua-mod.md)
 
+---
+
 - [Tools](tools/README.md)
   - [VBF Browser](tools/vbf-browser.md)
   - [FF12 External File Loader](tools/external-file-loader.md)
