@@ -1,0 +1,37 @@
+﻿# Code of Conduct
+
+The _Final Fantasy XII: The Zodiac Age_ modding community is built on collaboration, respect, and shared knowledge. When you are ready to share your creations with the world, we ask that you adhere to a few simple guidelines to keep the ecosystem healthy for everyone.
+
+---
+
+## 1. Where to Publish
+
+You are completely free to distribute your mods however and wherever you like, whether that's GitHub, ModDB, Google Drive, or personal websites.
+
+However, **we highly recommend publishing your mods on [Nexus Mods](https://www.nexusmods.com/finalfantasy12)**. The vast majority of the player base and modding tools reside there, making it an established, complete ecosystem. By hosting your mod on Nexus, you ensure players can easily find it, track updates, and install it seamlessly via Mod Managers like Vortex or MO2.
+
+## 2. Handling Dependencies
+
+Modern mods often rely on community frameworks (like _The Insurgent's Forge_ or _Dynamic Description_) or other foundational mods to work.
+
+{% hint style="danger" %}
+**Do Not Bundle Dependencies**
+
+Never pack another creator's mod or framework directly into your own zip file.
+{% endhint %}
+
+Instead, you should:
+
+- Set them as a **hard dependency** on your Nexus Mods upload page (this forces the user to download the required mods first).
+- Provide clear, direct links to the original mod pages in your description and documentation.
+
+This ensures that players always download the most up-to-date version of the dependency, and it guarantees that the original creator receives the download traffic and credit they deserve.
+
+## 3. Respecting Other Creators
+
+The Code of Conduct of the modding community is respect for other people's work.
+
+- **No Redistribution:** Never re-upload or distribute someone else's mod without their explicit permission, unless the mod is specifically designed to allow users to distribute their own custom configurations (and you are only distributing your configuration files).
+- **Give Credit:** If someone helped you, or if you used an open-source tool, resource, or template created by another modder, **always credit them** clearly on your mod page.
+
+By adhering to these practices, we foster a welcoming and respectful environment. This empowers creators to keep sharing their work and ensures our modding community continues to grow and thrive.

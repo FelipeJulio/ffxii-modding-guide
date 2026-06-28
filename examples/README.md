@@ -1,0 +1,5 @@
+﻿# Examples & Guides
+
+Step-by-step tutorials showing how to accomplish specific modding tasks from start to finish.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>EBP Full Modding Process</strong></td><td>Extract, decompile, edit, and repack a map EBP file. Spawn a custom NPC with dialogue.</td><td><a href="ebp-modding-example.md">ebp-modding-example.md</a></td><td><a href="../.gitbook/assets/code.svg">code.svg</a></td></tr><tr><td><strong>Creating a Forge Function</strong></td><td>Write a simple Insurgent's Forge function that runs during combat actions.</td><td><a href="forge-modding-example.md">forge-modding-example.md</a></td><td><a href="../.gitbook/assets/code.svg">code.svg</a></td></tr><tr><td><strong>Printing Map ID on Jump</strong></td><td>Write a minimal Lua mod that hooks into the map jump event and logs the location ID.</td><td><a href="lua-modding-example.md">lua-modding-example.md</a></td><td><a href="../.gitbook/assets/code.svg">code.svg</a></td></tr></tbody></table>

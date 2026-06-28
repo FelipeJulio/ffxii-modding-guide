@@ -1,0 +1,12 @@
+# Normalize all text files to CRLF in the working tree
+* text=auto eol=crlf
+
+# Treat images as binary (no EOL conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg binary
+*.bmp binary
+*.ico binary

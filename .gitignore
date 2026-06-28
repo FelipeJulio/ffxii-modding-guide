@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# Allow markdown
+!*.md
+
+# Allow images
+!*.png
+!*.svg
+
+# Allow config files
+!.gitignore
+!.gitattributes
