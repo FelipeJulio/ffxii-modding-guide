@@ -1,4 +1,4 @@
-﻿# Lua Modding Example
+﻿# Creating a Map Announcer Mod with the Lua Loader
 
 In this guide, we will build a Lua mod from scratch, improving it step by step. By the end, the mod will display an in-game popup with the name of the current location every time the player changes areas in Rabanastre.
 

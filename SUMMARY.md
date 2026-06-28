@@ -39,9 +39,9 @@
   - [The Insurgent's Handbook](resources/insurgents-handbook.md)
 
 - [Examples & Guides](examples/README.md)
-  - [Lua Modding Example](examples/lua-modding-example.md)
-  - [The Insurgent's Forge Function Example](examples/forge-modding-example.md)
-  - [EBP Modding Example](examples/ebp-modding-example.md)
+  - [Creating a Custom NPC with the FF12 VM Script Decompiler](examples/ebp-modding-example.md)
+  - [Creating an Insurgent's Forge Function](examples/forge-modding-example.md)
+  - [Creating a Map Announcer Mod with the Lua Loader](examples/lua-modding-example.md)
 
 - [Packing and Distributing](packaging/README.md)
   - [Creating a FOMOD Installer](packaging/creating-a-fomod.md)
