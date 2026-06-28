@@ -12,8 +12,6 @@
 - [Modding Folder Structure](getting-started/modding-folder-structure.md)
 - [Creating a Lua Mod](getting-started/creating-lua-mod.md)
 
-## Tools
-
 - [Tools](tools/README.md)
   - [VBF Browser](tools/vbf-browser.md)
   - [FF12 External File Loader](tools/external-file-loader.md)
@@ -26,8 +24,6 @@
   - [XII Font Editor](tools/font-editor.md)
   - [FFXII Model Viewer](tools/model-viewer.md)
 
-## Frameworks
-
 - [Frameworks](frameworks/README.md)
   - [The Insurgent's Forge](frameworks/insurgents-forge.md)
   - [Dynamic Description](frameworks/dynamic-description.md)
@@ -37,12 +33,8 @@
   - [The Insurgent's Stat Lores](frameworks/stat-lores.md)
   - [The Insurgent's Curated Shades](frameworks/curated-shades.md)
 
-## Resources & Documentation
-
 - [Resources & Documentation](resources/README.md)
   - [The Insurgent's Handbook](resources/insurgents-handbook.md)
-
-## Examples & Guides
 
 - [Examples & Guides](examples/README.md)
   - [EBP Full Modding Process](examples/ebp-modding-example.md)
