@@ -30,10 +30,10 @@
 - [The Insurgent's Forge](frameworks/insurgents-forge.md)
 - [Dynamic Description](frameworks/dynamic-description.md)
 - [Dynamic Preview Icons](frameworks/dynamic-preview-icons.md)
-- [Learnable Foecraft](frameworks/learnable-foecraft.md)
-- [Descriptive Inventory](frameworks/descriptive-inventory.md)
-- [Stat Lores](frameworks/stat-lores.md)
-- [Curated Shades](frameworks/curated-shades.md)
+- [The Insurgent's Learnable Foecraft](frameworks/learnable-foecraft.md)
+- [The Insurgent's Descriptive Inventory](frameworks/descriptive-inventory.md)
+- [The Insurgent's Stat Lores](frameworks/stat-lores.md)
+- [The Insurgent's Curated Shades](frameworks/curated-shades.md)
 
 ## Resources & Documentation
 
