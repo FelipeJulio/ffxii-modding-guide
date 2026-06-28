@@ -43,7 +43,6 @@
   - [The Insurgent's Forge Function Example](examples/forge-modding-example.md)
   - [EBP Modding Example](examples/ebp-modding-example.md)
 
-## Packing and Distributing
-
-- [Creating a FOMOD Installer](packaging/creating-a-fomod.md)
-- [Code of Conduct](packaging/code-of-conduct.md)
+- [Packing and Distributing](packaging/README.md)
+  - [Creating a FOMOD Installer](packaging/creating-a-fomod.md)
+  - [Code of Conduct](packaging/code-of-conduct.md)
