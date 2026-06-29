@@ -49,6 +49,10 @@ This file contains the basic metadata of your mod. It tells the mod manager what
 </fomod>
 ```
 
+{% hint style="info" %}
+Notice the `<Version>` field. Use **Semantic Versioning** (`MAJOR.MINOR.PATCH`, like `1.0.0`) here and keep it in sync with your mod page. See [Updating and Versioning Your Mod](updating-and-versioning.md) for the details.
+{% endhint %}
+
 ### 2. `ModuleConfig.xml`
 
 This is the brain of the installer. It dictates exactly which folders from your zip get installed and where they go.

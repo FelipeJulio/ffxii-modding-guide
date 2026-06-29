@@ -45,4 +45,5 @@
 
 - [Packing and Distributing](packaging/README.md)
   - [Creating a FOMOD Installer](packaging/creating-a-fomod.md)
+  - [Updating and Versioning Your Mod](packaging/updating-and-versioning.md)
   - [Code of Conduct](packaging/code-of-conduct.md)
