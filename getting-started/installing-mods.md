@@ -79,7 +79,7 @@ Manual installation requires understanding how FFXII's mod folder structure work
 
 There are two separate locations where mod files go, depending on the type of mod:
 
-**Binary game file replacements (EFL mods):**
+**Binary game file replacements (External File Loader mods):**
 Place your files inside the game's mod folder, mirroring the VBF structure:
 `mods/deploy/ff12data/...`
 

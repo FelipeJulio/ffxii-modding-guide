@@ -14,7 +14,7 @@ The Insurgent's Forge bypasses this limitation. It allows you to:
 - Assign your custom formulas to actions or equipment using the Battlepack Editor (via The Insurgent's Toolkit).
 
 {% hint style="info" %}
-**Official Documentation** Because it completely changes how the game processes logic, learning the Forge requires reading its detailed breakdown of formulas, functions, assemblies, and middlewares.
+**Official Documentation** Because it completely changes how the game processes logic, learning The Insurgent's Forge requires reading its detailed breakdown of formulas, functions, assemblies, and middlewares.
 
 <a href="https://www.nexusmods.com/finalfantasy12/mods/386" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
@@ -23,8 +23,8 @@ The Insurgent's Forge bypasses this limitation. It allows you to:
 
 ### See it in Action
 
-Want to see how simple it is to write a Forge function? Check out our quick example!
+Want to see how simple it is to write an Insurgent's Forge function? Check out our quick example!
 
 {% content-ref url="../examples/forge-modding-example.md" %}
-[View Example: Creating a Forge Function](../examples/forge-modding-example.md)
+[View Example: Creating an Insurgent's Forge Function](../examples/forge-modding-example.md)
 {% endcontent-ref %}

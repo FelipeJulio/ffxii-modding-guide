@@ -1,4 +1,4 @@
-﻿# Descriptive Inventory
+﻿# The Insurgent's Descriptive Inventory
 
 **The Insurgent's Descriptive Inventory** allows setting fully custom descriptions for any inventory content viewed in menus.
 

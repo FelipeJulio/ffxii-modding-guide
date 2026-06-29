@@ -1,4 +1,4 @@
-﻿# Curated Shades
+﻿# The Insurgent's Curated Shades
 
 **The Insurgent's Curated Shades** allows modifying which actions can be cast by the Shades of Black technick and setting individual chances for each one.
 

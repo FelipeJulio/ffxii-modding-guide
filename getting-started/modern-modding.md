@@ -16,15 +16,15 @@ In the early days of modding, tools like the **DrakLab Mod Loader** were used to
 
 To solve these problems, the community moved away from modifying the `.vbf` archive entirely. This was made possible by the **[External File Loader](../tools/external-file-loader.md)**.
 
-Instead of injecting files into the archive, the EFL intercepts the game as it runs. It creates a local layer of files and tricks the game into reading your "unpacked" mod files directly from a normal folder on your computer.
+Instead of injecting files into the archive, the External File Loader intercepts the game as it runs. It creates a local layer of files and tricks the game into reading your "unpacked" mod files directly from a normal folder on your computer.
 
-If the EFL doesn't find a modded file, it just loads the original one from the `.vbf`. This means your original game files remain 100% untouched, and installing or removing a mod is as simple as deleting a folder.
+If the External File Loader doesn't find a modded file, it just loads the original one from the `.vbf`. This means your original game files remain 100% untouched, and installing or removing a mod is as simple as deleting a folder.
 
 ## The Lua Loader
 
-The flexibility provided by the EFL paved the way for another important development: the **[Lua Loader](../tools/lua-loader.md)**.
+The flexibility provided by the External File Loader paved the way for another important development: the **[Lua Loader](../tools/lua-loader.md)**.
 
-While the EFL allows you to replace files (like 3D models or textures), the Lua Loader allows you to write custom Lua scripts to interact with the game's code in real-time. You can manipulate memory, call in-game functions, and change executable behavior without ever having to hard-patch the `.exe` file.
+While the External File Loader allows you to replace files (like 3D models or textures), the Lua Loader allows you to write custom Lua scripts to interact with the game's code in real-time. You can manipulate memory, call in-game functions, and change executable behavior without ever having to hard-patch the `.exe` file.
 
 {% hint style="info" %}
 **Are these required?**

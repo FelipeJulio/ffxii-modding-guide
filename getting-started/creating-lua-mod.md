@@ -56,10 +56,10 @@ Writing Lua mods from scratch can be challenging for complex mechanics. Fortunat
 
 ### The Insurgent's Forge
 
-A massive framework that overhauls how the game handles action formulas. Instead of hardcoded `.exe` logic, Forge allows you to calculate damage, status effects, and combat mechanics using Lua classes and middlewares.
+A massive framework that overhauls how the game handles action formulas. Instead of hardcoded `.exe` logic, The Insurgent's Forge allows you to calculate damage, status effects, and combat mechanics using Lua classes and middlewares.
 
-{% content-ref url="../frameworks/insurgents-forge.md" %}
-[Learn more about The Insurgent's Forge](../frameworks/insurgents-forge.md)
+{% content-ref url="../frameworks/the-insurgents-forge.md" %}
+[Learn more about The Insurgent's Forge](../frameworks/the-insurgents-forge.md)
 {% endcontent-ref %}
 ### Dynamic Description
 

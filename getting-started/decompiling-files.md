@@ -12,8 +12,8 @@ There are several tools created by the community specifically for decompiling di
 
 This is the primary tool used to unpack and pack the game's general binary files into readable JSON or text formats, making them incredibly easy to modify.
 
-{% content-ref url="../tools/insurgents-workshop.md" %}
-[Learn more about The Insurgent's Workshop](../tools/insurgents-workshop.md)
+{% content-ref url="../tools/the-insurgents-workshop.md" %}
+[Learn more about The Insurgent's Workshop](../tools/the-insurgents-workshop.md)
 {% endcontent-ref %}
 ---
 

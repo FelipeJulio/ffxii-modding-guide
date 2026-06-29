@@ -4,7 +4,7 @@ The **FF12 External File Loader** is the foundational mod that makes modern FFXI
 
 ### What does it do?
 
-By default, all game assets are packed inside the massive `FFXII_TZA.vbf` archive. The EFL intercepts the game at runtime and tricks it into reading loose files from a folder on your disk instead: without ever touching the original `.vbf` file.
+By default, all game assets are packed inside the massive `FFXII_TZA.vbf` archive. The External File Loader intercepts the game at runtime and tricks it into reading loose files from a folder on your disk instead: without ever touching the original `.vbf` file.
 
 - Your original game files remain **100% untouched**.
 - Installing or removing a mod is as simple as adding or deleting a folder.
@@ -13,17 +13,17 @@ By default, all game assets are packed inside the massive `FFXII_TZA.vbf` archiv
 
 {% hint style="warning" %}
 **Compatibility Note**
-EFL version 1.3.15+ requires **Lua Loader 1.6.2+**. Older versions of either tool are not fully compatible with each other.
+External File Loader version 1.3.15+ requires **Lua Loader 1.6.2+**. Older versions of either tool are not fully compatible with each other.
 {% endhint %}
 
 ### How it works
 
-The EFL is actually two components bundled together:
+The External File Loader is actually two components bundled together:
 
-- **FF12 Module Loader**: loads native `.dll` modules when the game starts, enabling features like the EFL itself.
+- **FF12 Module Loader**: loads native `.dll` modules when the game starts, enabling features like the External File Loader itself.
 - **FF12 External File Loader**: the module that intercepts file reads and redirects them to your local mod folder.
 
-Mods deployed via Vortex or MO2 are placed at `mods/deploy/ff12data/`, which mirrors the internal VBF structure. The EFL checks this folder first; if a file isn't found there, it falls back to the original `.vbf`.
+Mods deployed via Vortex or MO2 are placed at `mods/deploy/ff12data/`, which mirrors the internal VBF structure. The External File Loader checks this folder first; if a file isn't found there, it falls back to the original `.vbf`.
 
 {% hint style="info" %}
 **Download & Documentation**

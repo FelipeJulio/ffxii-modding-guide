@@ -1,4 +1,4 @@
-﻿# Stat Lores
+﻿# The Insurgent's Stat Lores
 
 **The Insurgent's Stat Lores** allows modifying existing stat lores and adding entirely new ones to the game.
 

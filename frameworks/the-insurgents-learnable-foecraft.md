@@ -1,4 +1,4 @@
-﻿# Learnable Foecraft
+﻿# The Insurgent's Learnable Foecraft
 
 **The Insurgent's Learnable Foecraft** adds a configurable system for learning actions from foes while fighting them.
 
