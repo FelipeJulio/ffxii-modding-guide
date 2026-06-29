@@ -8,7 +8,7 @@ It also includes an export functionality, allowing you to edit files live in the
 
 ---
 
-### Core Features
+### What does it do?
 
 The Toolkit is massive and touches almost every system in the game. Here is a brief summary of what you can accomplish with it:
 

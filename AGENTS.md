@@ -35,15 +35,23 @@ Keep all pages consistent. Do not invent new layouts. The established structure 
 
 1. `# Title` (the full, correct product name).
 2. A single bold sentence stating what it is.
-3. `### What does it do?` with a short explanation and a bullet list of capabilities.
+3. `### What does it do?` with a short explanation and a bullet list of capabilities. Always use this exact heading, never "Core Features" or any other variant.
 4. One or more GitBook `hint` blocks for features, requirements, warnings, and the official link.
 5. Where relevant, a `content-ref` linking to a matching example or guide.
+
+Use `---` to separate major sections within a longer page. Do not overuse it; it is for meaningful breaks, not decoration.
 
 **Section landing pages** (`README.md` inside each folder) open with a `# Title`, one or two sentences of intro, then a `card` table listing the pages in that section.
 
 **Example and guide titles always use an action format** that states what the reader will accomplish: "Creating X with Y" or "Doing X with Y" (for example, "Creating a Map Announcer Mod with the Lua Loader", "Creating a Custom NPC with the FF12 VM Script Decompiler"). Never use a vague or generic title like "Lua Modding Example". The reader should know the concrete outcome and the main tool involved just from the title.
 
+**When a section grows large, create a landing page for it.** If a section starts accumulating many pages or covering clearly distinct sub-topics, do not keep dumping everything into a flat list. Instead, create a `README.md` for that section with a card table linking to its pages, and add it to `SUMMARY.md` as a parent entry with children. This makes navigation scannable and keeps individual pages focused. The existing sections (Tools, Frameworks, Examples, etc.) already follow this pattern.
+
 **Never abbreviate the name of a mod, tool, or framework anywhere, with no exceptions.** Always use its full, official name in every single place it appears: page titles, body text, `SUMMARY.md`, card tables, links, **file names**, **URLs and slugs**, config paths, and code comments. The name must be identical everywhere for the same item, and the file name must be the full slugified name. For example, the file is `the-insurgents-stat-lores.md` (never `stat-lores.md`), the title is "The Insurgent's Stat Lores" (never "Stat Lores"), and prose says "The Insurgent's Forge" (never "the Forge" or "Forge"). Acronyms count as abbreviations too: write "External File Loader", never "EFL". The only names that legitimately have no prefix are the products whose official name truly lacks one (for example "Dynamic Description" and "Dynamic Preview Icons"); confirm against the page body before assuming.
+
+**File names use kebab-case.** Every `.md` file is named as a full, lowercase, hyphen-separated slug of the page title: `the-insurgents-learnable-foecraft.md`, `creating-a-fomod.md`. No camelCase, no underscores, no abbreviations.
+
+**File paths in documentation always use forward slashes (`/`).** Never backslashes (`\`) or arrows (`>`). Example: `ps2data/plan_master/us/plan_map`, never `ps2data\plan_master\us\plan_map` or `ps2data > plan_master > us > plan_map`.
 
 ---
 
@@ -69,13 +77,20 @@ Use native GitBook components rather than plain markdown wherever one fits. The 
 
 Section icons are shared per category: tools use `tool.svg`, frameworks use `framework.svg`, examples use `guide.svg`. Keep icons consistent within a section.
 
+**Card image sizes and sourcing rules:**
+
+- GitBook recommends 1920x1080 for card covers, but that is too heavy for cards. Use **~960x540** (half resolution) to keep page load fast.
+- **Home page cards** (`README.md`) use in-game screenshots. Any contributor can provide these since they are just screenshots of the game.
+- **All other section cards** use SVG icons from the existing pack in `.gitbook/assets/`. Do not use raster images for section cards outside the home.
+- If a new SVG icon is needed that does not exist in the pack, **request it from FehDead** so it follows the established visual standard. Do not create or source your own SVG without asking first.
+
 **Buttons** for outbound links (official mod pages, Discord):
 
 ```
 <a href="https://..." class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
 ```
 
-**Content references** for internal cross-links:
+**Content references** for internal cross-links. Use at the end of a section to point the reader to a related page: a tool or framework page links to its matching example, and a getting-started page links to the relevant tool or framework.
 
 ```
 {% content-ref url="../examples/forge-modding-example.md" %}
