@@ -1,8 +1,8 @@
-﻿# Creating a Map Announcer Mod with the Lua Loader
+﻿# Creating a Map Announcer Mod with the FF12 Lua Loader
 
 In this guide, we will build a Lua mod from scratch, improving it step by step. By the end, the mod will display an in-game popup with the name of the current location every time the player changes areas in Rabanastre.
 
-Before starting, make sure you have the **[External File Loader](../tools/external-file-loader.md)** and the **[Lua Loader](../tools/lua-loader.md)** installed. If not, check the [Installing Mods](installing-mods.md) guide first.
+Before starting, make sure you have the **[FF12 External File Loader](../tools/external-file-loader.md)** and the **[FF12 Lua Loader](../tools/lua-loader.md)** installed. If not, check the [Installing Mods](installing-mods.md) guide first.
 
 ---
 
@@ -16,7 +16,7 @@ event.registerEventAsync("onMapJump", function(locationId)
 end)
 ```
 
-`onMapJump` fires every time the player enters a new area. The Lua Loader automatically passes the `locationId` as an argument.
+`onMapJump` fires every time the player enters a new area. The FF12 Lua Loader automatically passes the `locationId` as an argument.
 
 `print` writes to the `hook.log` file located at `x64/hook.log` in your game directory. This is one of the most essential tools while developing a Lua mod: use it constantly to confirm your code is running and to inspect values.
 
@@ -30,7 +30,7 @@ end)
 
 ## Step 2: Showing an In-Game Message
 
-Checking the log file works, but it is not very practical. The Lua Loader provides `message.print`, which displays a popup in the top-left corner of the screen directly while playing.
+Checking the log file works, but it is not very practical. The FF12 Lua Loader provides `message.print`, which displays a popup in the top-left corner of the screen directly while playing.
 
 Update `MapAnnouncer.lua`:
 
@@ -82,7 +82,7 @@ This module is a plain Lua file that returns a table. The key is the location ID
 
 {% hint style="info" %}
 **Why not use `require`?**
-The Lua Loader runs scripts in a sandboxed environment. Standard `require` does not work here. Instead, we load files manually using `loadfile` with a sandboxed metatable: a common pattern in FFXII mods.
+The FF12 Lua Loader runs scripts in a sandboxed environment. Standard `require` does not work here. Instead, we load files manually using `loadfile` with a sandboxed metatable: a common pattern in FFXII mods.
 {% endhint %}
 
 Now update `MapAnnouncer.lua` to load the module and use it:
@@ -185,7 +185,7 @@ x64/scripts/config/MapAnnouncerConfig/settings.lua
 
 Congratulations: you just built your first Lua mod for Final Fantasy XII from scratch. And this is just the beginning.
 
-The Lua Loader exposes a rich API that goes far beyond events and messages. Here are some things you can explore:
+The FF12 Lua Loader exposes a rich API that goes far beyond events and messages. Here are some things you can explore:
 
 - **Memory read/write**: Read and modify any value in the game's memory in real-time. Change a character's HP, strength, gil, or any other stat directly from a script.
 - **Hooks**: Hook into specific memory addresses to intercept and alter the game's execution flow, changing how core systems behave at a low level.
@@ -199,6 +199,6 @@ The Lua Loader exposes a rich API that goes far beyond events and messages. Here
 - And much more.
 
 {% content-ref url="../tools/lua-loader.md" %}
-[Lua Loader](../tools/lua-loader.md)
+[FF12 Lua Loader](../tools/lua-loader.md)
 {% endcontent-ref %}
 

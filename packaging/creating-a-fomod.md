@@ -21,7 +21,7 @@ MyMod.zip/
     ├── mods/
     │   └── deploy/
     │       └── ff12data/
-    │           └── ... (Your External File Loader / VBF files)
+    │           └── ... (Your FF12 External File Loader / VBF files)
     └── x64/
         └── scripts/
             └── ... (Your Lua scripts)
@@ -57,7 +57,7 @@ Notice the `<Version>` field. Use **Semantic Versioning** (`MAJOR.MINOR.PATCH`, 
 
 This is the brain of the installer. It dictates exactly which folders from your zip get installed and where they go.
 
-**Critical Rule:** FFXII relies on two completely different file paths. Assets replacing `.vbf` files must go to the `mods/deploy/...` folder for the External File Loader, while Lua scripts must go to `x64/scripts`.
+**Critical Rule:** FFXII relies on two completely different file paths. Assets replacing `.vbf` files must go to the `mods/deploy/...` folder for the FF12 External File Loader, while Lua scripts must go to `x64/scripts`.
 
 The `ModuleConfig.xml` solves this routing perfectly:
 
@@ -66,7 +66,7 @@ The `ModuleConfig.xml` solves this routing perfectly:
     <moduleName>My Awesome Mod</moduleName>
 
     <requiredInstallFiles>
-        <!-- Routes your VBF replacement files to the correct External File Loader folder -->
+        <!-- Routes your VBF replacement files to the correct FF12 External File Loader folder -->
         <folder source="data\mods" destination="mods" />
 
         <!-- Routes your Lua scripts to the correct loader folder -->

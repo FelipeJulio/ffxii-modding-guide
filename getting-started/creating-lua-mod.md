@@ -2,14 +2,14 @@
 
 One of the most powerful ways to mod Final Fantasy XII today is by writing your own custom scripts in **Lua**. This allows you to manipulate the game's memory, call internal functions, and change logic dynamically without hard-patching the game executable.
 
-## The Foundation: Lua Loader
+## The Foundation: FF12 Lua Loader
 
-To create or run any Lua mods, you absolutely must have the **Lua Loader** installed. It is the engine that injects your custom code into the game.
+To create or run any Lua mods, you absolutely must have the **FF12 Lua Loader** installed. It is the engine that injects your custom code into the game.
 
 To actually write these mods, you must use the official documentation as your primary base of reference. It contains all available functions, memory addresses, and event hooks.
 
 {% content-ref url="../tools/lua-loader.md" %}
-[Learn more about Lua Loader](../tools/lua-loader.md)
+[Learn more about FF12 Lua Loader](../tools/lua-loader.md)
 {% endcontent-ref %}
 ---
 
@@ -52,7 +52,7 @@ Now that you understand the best practices for folder structure, you can see how
 
 ## Scripting Frameworks
 
-Writing Lua mods from scratch can be challenging for complex mechanics. Fortunately, there are **Scripting Frameworks** that run on top of the Lua Loader. You can use these frameworks as dependencies to accomplish complex tasks easily.
+Writing Lua mods from scratch can be challenging for complex mechanics. Fortunately, there are **Scripting Frameworks** that run on top of the FF12 Lua Loader. You can use these frameworks as dependencies to accomplish complex tasks easily.
 
 ### The Insurgent's Forge
 

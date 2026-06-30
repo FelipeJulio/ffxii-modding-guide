@@ -10,7 +10,7 @@ There are three ways to install mods for Final Fantasy XII: The Zodiac Age. Usin
 
 {% hint style="warning" %}
 **Vortex known issues**
-Vortex is the easiest to get started with, but it is not always the most reliable option. It can occasionally have issues with mod deployment or failing to recognize certain mods. If you install mods and they are not working, try uninstalling and reinstalling the **External File Loader** and **Lua Loader** through Vortex first before troubleshooting anything else.
+Vortex is the easiest to get started with, but it is not always the most reliable option. It can occasionally have issues with mod deployment or failing to recognize certain mods. If you install mods and they are not working, try uninstalling and reinstalling the **FF12 External File Loader** and **FF12 Lua Loader** through Vortex first before troubleshooting anything else.
 
 For a more stable experience, consider using **Mod Organizer 2** instead.
 {% endhint %}
@@ -24,8 +24,8 @@ For a more stable experience, consider using **Mod Organizer 2** instead.
 5. Click **Deploy Mods** to apply changes to the game.
 
 {% hint style="danger" %}
-**External File Loader hook method**
-When installing the External File Loader, it will ask you to choose a hook method. **Select `dinput8.dll`** when using Vortex.
+**FF12 External File Loader hook method**
+When installing the FF12 External File Loader, it will ask you to choose a hook method. **Select `dinput8.dll`** when using Vortex.
 {% endhint %}
 
 {% hint style="info" %}
@@ -57,8 +57,8 @@ Mod Organizer 2 does not support Final Fantasy XII out of the box. You must inst
 6. Always launch the game **through Mod Organizer 2** so the virtual file system loads your mods.
 
 {% hint style="danger" %}
-**External File Loader hook method**
-When installing the External File Loader, it will ask you to choose a hook method. **Select the Mod Organizer 2 option** when using Mod Organizer 2, as Mod Organizer 2 has its own hook system and requires a different setting than Vortex.
+**FF12 External File Loader hook method**
+When installing the FF12 External File Loader, it will ask you to choose a hook method. **Select the Mod Organizer 2 option** when using Mod Organizer 2, as Mod Organizer 2 has its own hook system and requires a different setting than Vortex.
 {% endhint %}
 
 {% hint style="info" %}
@@ -79,7 +79,7 @@ Manual installation requires understanding how FFXII's mod folder structure work
 
 There are two separate locations where mod files go, depending on the type of mod:
 
-**Binary game file replacements (External File Loader mods):**
+**Binary game file replacements (FF12 External File Loader mods):**
 Place your files inside the game's mod folder, mirroring the VBF structure:
 `mods/deploy/ff12data/...`
 

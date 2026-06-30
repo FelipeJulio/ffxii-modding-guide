@@ -17,7 +17,7 @@
 - [Tools](tools/README.md)
   - [VBF Browser](tools/vbf-browser.md)
   - [FF12 External File Loader](tools/external-file-loader.md)
-  - [Lua Loader](tools/lua-loader.md)
+  - [FF12 Lua Loader](tools/lua-loader.md)
   - [FF12 VM Script Decompiler](tools/script-decompiler.md)
   - [The Insurgent's Workshop](tools/the-insurgents-workshop.md)
   - [The Insurgent's Toolkit](tools/the-insurgents-toolkit.md)
@@ -41,7 +41,7 @@
 - [Examples & Guides](examples/README.md)
   - [Creating a Custom NPC with the FF12 VM Script Decompiler](examples/ebp-modding-example.md)
   - [Creating an Insurgent's Forge Function](examples/forge-modding-example.md)
-  - [Creating a Map Announcer Mod with the Lua Loader](examples/lua-modding-example.md)
+  - [Creating a Map Announcer Mod with the FF12 Lua Loader](examples/lua-modding-example.md)
 
 - [Packing and Distributing](packaging/README.md)
   - [Creating a FOMOD Installer](packaging/creating-a-fomod.md)

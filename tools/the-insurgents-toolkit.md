@@ -2,7 +2,7 @@
 
 **The Insurgent's Toolkit** is the ultimate, essential real-time memory editor and modding suite for _Final Fantasy XII: The Zodiac Age_.
 
-If you are a modder, this tool is practically mandatory. It acts as a bridge between the game's live memory and your ideas. Through The Insurgent's Toolkit, you can modify the game in real-time, understand exactly how certain data structures are read from memory, and obtain static and dynamic addresses to use in your **Lua Loader** mods.
+If you are a modder, this tool is practically mandatory. It acts as a bridge between the game's live memory and your ideas. Through The Insurgent's Toolkit, you can modify the game in real-time, understand exactly how certain data structures are read from memory, and obtain static and dynamic addresses to use in your **FF12 Lua Loader** mods.
 
 It also includes an export functionality, allowing you to edit files live in the game and export them directly to use as a mod.
 

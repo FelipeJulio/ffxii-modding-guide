@@ -8,7 +8,7 @@ As the game stores virtually all of its assets and logic in a single, massive ar
 
 - **Archive Exploration:** View the full internal directory structure of the `.vbf` file exactly as the game engine reads it.
 - **File Extraction:** Extract specific files or entire directories out of the archive to your PC, allowing you to modify textures, logic scripts, 3D models, or UI data.
-- **Archive Patching:** While modern modding relies on the **[External File Loader](external-file-loader.md)** or **[Lua Loader](lua-loader.md)** to inject changes dynamically, VBF Browser also allows you to manually inject files back into the archive if absolutely necessary (though this is considered an outdated practice).
+- **Archive Patching:** While modern modding relies on the **[FF12 External File Loader](external-file-loader.md)** or **[FF12 Lua Loader](lua-loader.md)** to inject changes dynamically, VBF Browser also allows you to manually inject files back into the archive if absolutely necessary (though this is considered an outdated practice).
 - **Search Functionality:** Quickly find specific files or asset names within the enormous archive tree.
 
 {% hint style="info" %}

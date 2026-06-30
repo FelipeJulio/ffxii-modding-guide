@@ -23,5 +23,5 @@ Extracting a file is very simple:
 Once you have extracted the file, you are ready for the next step: modifying or decompiling it!
 
 {% hint style="warning" %}
-**Important:** When extracting files like `battle_pack.bin`, it is highly recommended to recreate and keep the **complete folder structure** intact on your computer. You will need this exact path later when creating a mod loadable by the External File Loader, which will be explained in detail later in the guide.
+**Important:** When extracting files like `battle_pack.bin`, it is highly recommended to recreate and keep the **complete folder structure** intact on your computer. You will need this exact path later when creating a mod loadable by the FF12 External File Loader, which will be explained in detail later in the guide.
 {% endhint %}

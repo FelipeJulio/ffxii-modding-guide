@@ -1,6 +1,6 @@
 ﻿# The Insurgent's Forge
 
-**The Insurgent's Forge** is a Lua-based framework that runs on top of the Lua Loader, designed specifically to overhaul how the game handles action formulas.
+**The Insurgent's Forge** is a Lua-based framework that runs on top of the FF12 Lua Loader, designed specifically to overhaul how the game handles action formulas.
 
 ### What does it do?
 

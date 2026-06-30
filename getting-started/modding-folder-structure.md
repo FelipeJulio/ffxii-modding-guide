@@ -1,27 +1,27 @@
 ﻿# Modding Folder Structure
 
-When building mods for Final Fantasy XII, understanding how your files are loaded into the game is essential. There are two primary loaders you'll interact with: the **[External File Loader](../tools/external-file-loader.md)** for vanilla asset replacement, and the **Lua Loader** for scripts.
+When building mods for Final Fantasy XII, understanding how your files are loaded into the game is essential. There are two primary loaders you'll interact with: the **[FF12 External File Loader](../tools/external-file-loader.md)** for vanilla asset replacement, and the **FF12 Lua Loader** for scripts.
 
 In this section, we will break down both folder structures and explain how to use them effectively.
 
 ---
 
-## 1. External File Loader Structure
+## 1. FF12 External File Loader Structure
 
-The External File Loader hooks into the game engine and allows you to load loose files directly from your disk, overriding the assets stored inside the game's massive `.vbf` archive.
+The FF12 External File Loader hooks into the game engine and allows you to load loose files directly from your disk, overriding the assets stored inside the game's massive `.vbf` archive.
 
 When a mod is deployed (e.g., via Mod Organizer 2), its files are placed into this core directory:
 `mods/deploy/ff12data/`
 
-This folder acts as a **direct mirror of the VBF**. If a file exists in the VBF at `ps2data/image/ff12.bin`, you must place your modified file at `mods/deploy/ff12data/ps2data/image/ff12.bin` for the External File Loader to recognize it.
+This folder acts as a **direct mirror of the VBF**. If a file exists in the VBF at `ps2data/image/ff12.bin`, you must place your modified file at `mods/deploy/ff12data/ps2data/image/ff12.bin` for the FF12 External File Loader to recognize it.
 
 ### Layered Loading (The `.dir` Feature)
 
-The most powerful feature of the External File Loader is its ability to load **individual binary sections**.
+The most powerful feature of the FF12 External File Loader is its ability to load **individual binary sections**.
 
 Many files in FFXII, such as `battle_pack.bin` or map `.ebp` files, are actually archives containing dozens of smaller binary sections. **It is considered a bad practice to repack and overwrite an entire pack file**, as this will immediately cause conflicts with any other mod trying to edit a different section of the same pack.
 
-Instead, the External File Loader allows you to turn a file name into a directory by appending `.dir` to it. The External File Loader will then inject only the loose sections found inside into the original game pack at runtime.
+Instead, the FF12 External File Loader allows you to turn a file name into a directory by appending `.dir` to it. The FF12 External File Loader will then inject only the loose sections found inside into the original game pack at runtime.
 
 **Example 1: Single Level Depth**
 If you want to edit `section_013.bin` inside `battle_pack.bin`, you create a folder named `battle_pack.bin.dir` and place your edited section inside:
@@ -64,11 +64,11 @@ This layered loading architecture ensures that your mod is highly compatible wit
 
 ---
 
-## 2. Lua Loader Structure
+## 2. FF12 Lua Loader Structure
 
-Unlike the External File Loader which mirrors the original VBF file structure, Lua mods do not replace game files. Instead, they run entirely from memory.
+Unlike the FF12 External File Loader which mirrors the original VBF file structure, Lua mods do not replace game files. Instead, they run entirely from memory.
 
-All scripts injected via the Lua Loader must reside in the `x64/scripts` directory of your mod folder.
+All scripts injected via the FF12 Lua Loader must reside in the `x64/scripts` directory of your mod folder.
 
 When building a Lua Mod, it's highly recommended to adopt a modular architecture to keep your code organized. A standard, well-structured Lua Mod looks like this:
 
@@ -90,8 +90,8 @@ mods/
 
 ### Breaking Down the Structure
 
-- **Main Entry File (`MyAwesomeMod.lua`):** This is the root file that the Lua Loader will find and execute. It should ideally be lightweight, serving only to load configuration files and bootstrap the modules located in your subfolder.
+- **Main Entry File (`MyAwesomeMod.lua`):** This is the root file that the FF12 Lua Loader will find and execute. It should ideally be lightweight, serving only to load configuration files and bootstrap the modules located in your subfolder.
 - **Component Directory (`MyAwesomeMod/`):** To avoid cluttering the `scripts` root folder and causing conflicts with other mods, you should create a folder named exactly after your mod. Inside it, you can place all your secondary modules, hooks, classes, and helper functions (e.g., `helpers.lua`).
 - **Configuration Directory (`config/MyAwesomeModConfig/`):** If your mod requires user-adjustable settings or multi-language support (like localizing strings for US, ES, FR), you should place these files in a dedicated `config` folder. Using a suffix like `Config` for the subfolder ensures it is clearly separated from your core logic.
 
-By adhering to this structure, your code remains modular, easy to maintain, and extremely compatible with the FFXII Lua Loader ecosystem.
+By adhering to this structure, your code remains modular, easy to maintain, and extremely compatible with the FF12 Lua Loader ecosystem.

@@ -44,6 +44,6 @@ Good changelog habits:
 
 - **Keep your version numbers in sync** across your mod page, your changelog, and any version field inside the mod itself.
 - **Call out breaking changes loudly.** If players must delete an old version, update a dependency, or start a new save, say so before they install.
-- **State your dependencies and their versions.** If your mod now requires a newer External File Loader or Lua Loader, list the minimum version it needs.
+- **State your dependencies and their versions.** If your mod now requires a newer FF12 External File Loader or FF12 Lua Loader, list the minimum version it needs.
 - **Do not silently overwrite.** When you upload a new build, publish it as a new version with its own changelog entry instead of replacing the file with no explanation.
 - **Test before you publish.** Make sure the update installs cleanly on top of, or in place of, the previous version the way your players will actually do it.

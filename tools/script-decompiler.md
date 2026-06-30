@@ -1,6 +1,6 @@
 ﻿# FF12 VM Script Decompiler
 
-The **Final Fantasy XII Virtual Machine Script Decompiler and Compiler** is a tool specifically focused on the game's map logic and event files.
+The **FF12 VM Script Decompiler** is a tool specifically focused on the game's map logic and event files.
 
 ### What does it do?
 

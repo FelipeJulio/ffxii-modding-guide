@@ -1,6 +1,6 @@
 ﻿# Understanding the VBF Archive
 
-Even though modern modding uses the [External File Loader](../tools/external-file-loader.md) to bypass injecting files _into_ the game's archive, your mod files must still perfectly replicate the game's internal folder structure for the loader to recognize them.
+Even though modern modding uses the [FF12 External File Loader](../tools/external-file-loader.md) to bypass injecting files _into_ the game's archive, your mod files must still perfectly replicate the game's internal folder structure for the loader to recognize them.
 
 ## The VBF Tree Structure
 
