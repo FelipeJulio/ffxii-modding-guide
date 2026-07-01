@@ -1,16 +1,22 @@
-﻿# Code of Conduct
+# Code of Conduct
 
-The _Final Fantasy XII: The Zodiac Age_ modding community is built on collaboration, respect, and shared knowledge. When you are ready to share your creations with the world, we ask that you adhere to a few simple guidelines to keep the ecosystem healthy for everyone.
+The _Final Fantasy XII: The Zodiac Age_ modding community is built on collaboration, respect, and shared knowledge. This applies both to how this guide is put together and to how you, as a modder, should treat other creators' work.
 
 ---
 
-## 1. Where to Publish
+## 1. About This Guide
 
-You are completely free to distribute your mods however and wherever you like, whether that's GitHub, ModDB, Google Drive, or personal websites.
+This guide compiles information, documentation, and tools created by various talented members of the FFXII modding community. All credit for the tools and frameworks belongs entirely to their respective creators.
+
+To respect and protect the rights of these creators, this guide **does not re-host any files**. Instead, you will always be directed to the official creator's page to download their work directly.
+
+## 2. Where to Publish
+
+You are completely free to distribute your mods however and wherever you like, whether that's GitHub, Nexus Mods, ModDB, Google Drive, or personal websites.
 
 However, **we highly recommend publishing your mods on [Nexus Mods](https://www.nexusmods.com/finalfantasy12)**. The vast majority of the player base and modding tools reside there, making it an established, complete ecosystem. By hosting your mod on Nexus, you ensure players can easily find it, track updates, and install it seamlessly via Mod Managers like Vortex or MO2.
 
-## 2. Handling Dependencies
+## 3. Handling Dependencies
 
 Modern mods often rely on community frameworks (like _The Insurgent's Forge_ or _Dynamic Description_) or other foundational mods to work.
 
@@ -27,7 +33,7 @@ Instead, you should:
 
 This ensures that players always download the most up-to-date version of the dependency, and it guarantees that the original creator receives the download traffic and credit they deserve.
 
-## 3. Respecting Other Creators
+## 4. Respecting Other Creators
 
 The Code of Conduct of the modding community is respect for other people's work.
 
@@ -35,3 +41,4 @@ The Code of Conduct of the modding community is respect for other people's work.
 - **Give Credit:** If someone helped you, or if you used an open-source tool, resource, or template created by another modder, **always credit them** clearly on your mod page.
 
 By adhering to these practices, we foster a welcoming and respectful environment. This empowers creators to keep sharing their work and ensures our modding community continues to grow and thrive.
+

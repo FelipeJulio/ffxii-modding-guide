@@ -11,6 +11,7 @@
 - [Decompiling Files](getting-started/decompiling-files.md)
 - [Modding Folder Structure](getting-started/modding-folder-structure.md)
 - [Creating a Lua Mod](getting-started/creating-lua-mod.md)
+- [Code of Conduct](getting-started/code-of-conduct.md)
 
 ## Modding
 
@@ -46,4 +47,3 @@
 - [Packing and Distributing](packaging/README.md)
   - [Creating a FOMOD Installer](packaging/creating-a-fomod.md)
   - [Updating and Versioning Your Mod](packaging/updating-and-versioning.md)
-  - [Code of Conduct](packaging/code-of-conduct.md)

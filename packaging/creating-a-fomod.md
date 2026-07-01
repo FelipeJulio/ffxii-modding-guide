@@ -137,3 +137,7 @@ Before uploading to Nexus Mods, you should always test your installer locally:
 3. Install the mod from the Zip file you just created.
 4. Verify that the files were correctly placed in the `mods/deploy/ff12data/` and `x64/scripts/` folders.
 
+{% hint style="warning" %}
+**Bundling dependencies?** If your mod relies on a framework or another creator's mod, never pack it into your zip. Set it as a hard dependency instead, see the [Code of Conduct](../getting-started/code-of-conduct.md) for the full guidelines.
+{% endhint %}
+
