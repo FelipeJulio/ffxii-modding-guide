@@ -11,10 +11,6 @@ As the name suggests, it allows you to load the game's models in multiple format
 - **Direct from VBF**: You can load models straight from the game's Virtual File System archives without extracting them first.
 - **Compiled Phyre**: You can load compiled `.phyre` models.
 - **Decompiled FBX**: You can load standard `.fbx` models, which is extremely useful if you are testing modifications you've made in Blender or Maya before recompiling them.
-
-### Features
-
-- **Format Support:** Supports `.fbx`, `.phyre`, and direct `.vbf` loading.
 - **Visualization & Post-processing:** Includes multiple viewing options, lighting tweaks, and post-processing effects to see how the model will look under different conditions.
 - **Screenshots:** Built-in tools to capture high-quality screenshots of the models you are viewing.
 

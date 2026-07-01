@@ -4,7 +4,7 @@
 
 Instead of being a specific program you download, it is a living documentation site that breaks down the deeply technical aspects of the game into understandable guides and reference sheets.
 
-### What will you find there?
+### What can you do with this?
 
 Whether you are editing dialogues or completely redesigning a map, The Insurgent's Handbook holds the vital data you will need:
 

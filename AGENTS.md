@@ -31,7 +31,18 @@ The voice is **simple, clear, direct, and friendly**. Imagine explaining to a sm
 
 ## 3. Page structure
 
-Keep all pages consistent. Do not invent new layouts. The established structure for a **tool or framework** page is:
+Keep all pages consistent. Do not invent new layouts.
+
+**Section intent.** Each top-level section serves a different reader intent. Calibrate tone and depth accordingly:
+
+- **Getting Started:** show the full landscape, everything available and how modding here works. Written for total beginners.
+- **Tools:** what each tool is, what problem it solves, what becomes possible with it.
+- **Frameworks:** same as Tools, but for in-game frameworks other mods build on.
+- **Resources:** external sources, what is in them, what they help with. Always link out, never reproduce.
+- **Packaging:** how to package and distribute a finished mod.
+- **Examples:** educational, hands-on walkthroughs (not necessarily full mods) demonstrating a technique in practice.
+
+The established structure for a **tool or framework** page is:
 
 1. `# Title` (the full, correct product name).
 2. A single bold sentence stating what it is.
@@ -40,6 +51,15 @@ Keep all pages consistent. Do not invent new layouts. The established structure 
 5. Where relevant, a `content-ref` linking to a matching example or guide.
 
 Use `---` to separate major sections within a longer page. Do not overuse it; it is for meaningful breaks, not decoration.
+
+**Resources / external source pages.** Some pages exist only to point the reader at an external source, a spreadsheet, a GitHub repo, another GitBook, a doc site, anything not hosted in this guide. The structure is:
+
+1. `# Title` (the full, correct name of the source).
+2. A single bold sentence stating what it is.
+3. `### What can you do with this?`. Always use this exact heading, unless the one-line description already makes the value obvious, in which case skip it.
+4. A `hint` block or button linking out to the actual source. **Never reproduce the source's content on the page:** no copied tables, no re-hosted data. Summarize, then link.
+
+Before writing `### What can you do with this?`, actually open and inspect the real source, do not assume from its name or file list alone. Match the write-up's depth to what the source actually contains: a source with many fields, categories, or clear use cases earns a fuller paragraph covering multiple angles (what it is for, what problem it solves, what it helps you do, what possibilities it opens). A thin source gets a short, honest paragraph. Never pad to fill a template. If neither the request nor the source gives enough to write something substantive, stop and ask the requester what is in it, who would use it, and what problem it solves, instead of guessing (see section 5, this is the same rule extended to content depth, not just crediting).
 
 **Section landing pages** (`README.md` inside each folder) open with a `# Title`, one or two sentences of intro, then a `card` table listing the pages in that section.
 

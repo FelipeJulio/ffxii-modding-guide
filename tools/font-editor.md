@@ -13,9 +13,6 @@ Fonts in FFXII are handled through specialized atlas and kerning files. This edi
 - **Atlas Files (`.dat` / `.txt`):** The atlas defines the visual layout and metrics of every character. The editor lets you convert the compiled binary `.dat` into a readable `.txt` format for adjustments, and recompile it back to `.dat` for the game engine.
 - **Kerning Files (`.ker` / `.txt`):** Handles the spacing between individual character pairs to ensure your custom font is visually balanced.
 - **Visual Previews (`.png`):** The editor can export a high-resolution snapshot of the glyph map to replace the original `.dds` texture in the game files.
-
-### Key Features
-
 - **Custom Fonts:** You can upload your own `.ttf` or `.otf` fonts to completely replace the game's default typography.
 - **Visual Overlay:** Allows you to load a `.png` of the original `.dds` texture as an overlay beneath your canvas, ensuring your custom glyphs perfectly align with the game's expectations to avoid "letterbox" issues.
 - **Advanced Typography:** Fine-tune spacing, kerning, strokes, shadows, and colors (with HEX/RGBA support).
