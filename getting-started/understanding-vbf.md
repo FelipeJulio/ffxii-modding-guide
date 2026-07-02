@@ -19,6 +19,13 @@ FFXII_TZA.vbf
 ├── ps2data
 │   ├── ...
 │   ├── plan_master
+│   │   ├── us
+│   │   │   ├── event
+│   │   │   └── plan_map
+│   │   ├── in
+│   │   │   └── event
+│   │   │       └── area
+│   │   └── ...
 │   ├── ...
 │   ├── image
 │   │   └── ff12
@@ -42,7 +49,11 @@ FFXII_TZA.vbf
 
 ## How the Structure Works
 
-The organization might seem a little confusing at first, but it is something you get used to very quickly once you understand the core separation:
+A `.vbf` file is a single packed archive, similar to a `.zip` or `.pak` file. Instead of storing thousands of individual game files loose on your disk, the game bundles all of them into this one big archive. That is exactly why you cannot simply drop a replacement file into the game's install folder: your file needs to be recognized inside that archive first.
+
+This is why tools exist around the VBF format: the **VBF Browser** lets you look inside the archive and see what is there, while the **FF12 External File Loader** lets you override a file at runtime without ever having to repack the archive yourself.
+
+The organization inside the archive might seem a little confusing at first, but it is something you get used to very quickly once you understand the core separation:
 
 - **`gamedata`:** This is where the majority of the game's visual assets are located, such as 3D models and textures.
 - **`ps2data`:** This is where the game's logic resides. However, it doesn't just contain logic; you will also find text files and other binary textures here.
