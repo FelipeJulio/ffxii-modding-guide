@@ -15,7 +15,7 @@ The Insurgent's Toolkit warns against reordering equipment or changing an item's
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1NZ0ezAqZ4bYecIsHbF04aYdsuZykOePa90aYnR6KuiI/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1NZ0ezAqZ4bYecIsHbF04aYdsuZykOePa90aYnR6KuiI/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="equipment-attribute-reference.md" %}

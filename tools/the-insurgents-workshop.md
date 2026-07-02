@@ -13,5 +13,5 @@ Once the data is in a readable format, you can open it in any text editor, make 
 {% hint style="info" %}
 **Official Documentation** This page only serves as an introduction to the tool. For complete instructions, commands, and tutorials on how to actually use it, you must consult the official documentation.
 
-<a href="https://xeavin.gitbook.io/the-insurgents-workshop" class="button primary" data-icon="external-link-alt">Go to Official Documentation</a>
+<a href="https://xeavin.gitbook.io/the-insurgents-workshop" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Documentation</a>
 {% endhint %}

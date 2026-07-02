@@ -24,5 +24,5 @@ This tool solves that by allowing you to convert back and forth between them:
 {% hint style="info" %}
 **Download & Source** You can download the tool from Nexus Mods.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/289" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/289" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}

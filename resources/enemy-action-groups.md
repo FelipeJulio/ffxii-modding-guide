@@ -15,7 +15,7 @@ The Insurgent's Toolkit warns that Action Groups should only be edited together 
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1FeMWCdnrlqL-ZCuUz0xCOPxbY4lNh08TVknjQCmn-dw" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1FeMWCdnrlqL-ZCuUz0xCOPxbY4lNh08TVknjQCmn-dw" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="enemy-ai-scripts.md" %}

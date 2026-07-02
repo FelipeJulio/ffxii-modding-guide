@@ -11,5 +11,5 @@ Before you can export or target the right file in The Insurgent's Toolkit's ARD 
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://1drv.ms/x/s!Avp2cjfbfD1VgQgMMEfnznpsO5He" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://1drv.ms/x/s!Avp2cjfbfD1VgQgMMEfnznpsO5He" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

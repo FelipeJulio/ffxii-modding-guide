@@ -22,5 +22,5 @@ Fonts in FFXII are handled through specialized atlas and kerning files. This edi
 {% hint style="info" %}
 **Web Tool Link** You can access the editor and its full documentation directly in your browser.
 
-<a href="https://ff12-font-editor.vercel.app/" class="button primary" data-icon="external-link-alt">Open XII Font Editor</a>
+<a href="https://ff12-font-editor.vercel.app/" class="button primary" target="_blank" data-icon="external-link-alt">Open XII Font Editor</a>
 {% endhint %}

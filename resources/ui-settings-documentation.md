@@ -11,7 +11,7 @@
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1vIi0By-pGLldUIJ-CplHQWGyo8eYqUuxBYPlJoDrlBY/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1vIi0By-pGLldUIJ-CplHQWGyo8eYqUuxBYPlJoDrlBY/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="mrp-ui-layout-documentation.md" %}

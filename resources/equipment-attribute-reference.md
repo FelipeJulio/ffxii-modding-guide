@@ -15,7 +15,7 @@ Attribute 0 is the placeholder for "no bonus" and should never be modified, chan
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1S0TqQV5cTynoT3VVecvytEuMm5EAMxTp2Cx_-_GL0OU/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1S0TqQV5cTynoT3VVecvytEuMm5EAMxTp2Cx_-_GL0OU/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="battlepack-section-13-equipment-stats.md" %}

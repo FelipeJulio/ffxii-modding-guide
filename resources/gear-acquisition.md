@@ -11,5 +11,5 @@ For all 420 gear items in the game, this sheet tracks rarity and every acquisiti
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/15gi8Gj-NOk--NnL8o0yfxrQKU7E0SXDI5vgt5jYLXNM/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/15gi8Gj-NOk--NnL8o0yfxrQKU7E0SXDI5vgt5jYLXNM/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

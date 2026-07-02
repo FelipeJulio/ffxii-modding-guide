@@ -19,7 +19,7 @@ Modding can sometimes be challenging, but you don't have to do it alone! We have
 
 If you have questions, run into issues, or just want to share your progress, drop by and chat with us!
 
-<a href="https://discord.gg/UBrP6ME" class="button primary" data-icon="discord">Join the Modding Discord</a>
+<a href="https://discord.gg/UBrP6ME" class="button primary" target="_blank" data-icon="discord">Join the Modding Discord</a>
 
 ---
 

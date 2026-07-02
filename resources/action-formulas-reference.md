@@ -11,7 +11,7 @@ Every action in the game resolves through one of these Formulas, a named sequenc
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1yyflms0sghclccDE5R3qb-NdiTFkiMimmhbuX5iYWUk/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1yyflms0sghclccDE5R3qb-NdiTFkiMimmhbuX5iYWUk/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="battlepack-section-14-action-data.md" %}

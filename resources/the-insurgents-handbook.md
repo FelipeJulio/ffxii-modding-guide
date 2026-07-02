@@ -21,5 +21,5 @@ It is a highly recommended reference for modders.
 **Access The Insurgent's Handbook**
 The Insurgent's Handbook is hosted on GitBook and is continuously updated by the community.
 
-<a href="https://xeavin.gitbook.io/the-insurgents-handbook" class="button primary" data-icon="external-link-alt">Read The Insurgent's Handbook</a>
+<a href="https://xeavin.gitbook.io/the-insurgents-handbook" class="button primary" target="_blank" data-icon="external-link-alt">Read The Insurgent's Handbook</a>
 {% endhint %}

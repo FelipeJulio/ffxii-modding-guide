@@ -17,6 +17,6 @@ As the game stores virtually all of its assets and logic in a single, massive ar
 **Download & Setup**
 You can download the VBF Browser from Nexus Mods.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/3" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/3" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
 

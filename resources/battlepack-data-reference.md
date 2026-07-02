@@ -11,7 +11,7 @@ Beyond the content IDs already covered by Inventory Contents, this sheet documen
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWAAAAAAAAA6U_H6L8BJTkZYg" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWAAAAAAAAA6U_H6L8BJTkZYg" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="inventory-contents.md" %}

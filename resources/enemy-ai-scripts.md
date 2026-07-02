@@ -15,7 +15,7 @@ The Insurgent's Toolkit warns that AI Scripts and Action Groups are heavily link
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1BEXZsbvK0Ey5Yl5WpI58Es4nEXNnI3PSd0_Asi5DE48/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1BEXZsbvK0Ey5Yl5WpI58Es4nEXNnI3PSd0_Asi5DE48/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="enemy-and-area-data-map.md" %}

@@ -11,7 +11,7 @@ An augment is the passive ability granted by an accessory or a License Board nod
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1IaG6MYV01C2IJW9dmk54Vgrvv1mN3ZvcSpPi5y0sCxc/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1IaG6MYV01C2IJW9dmk54Vgrvv1mN3ZvcSpPi5y0sCxc/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="hp-augment-totals.md" %}

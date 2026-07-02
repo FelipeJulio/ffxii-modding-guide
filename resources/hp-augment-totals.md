@@ -11,7 +11,7 @@ The game has 12 tiers of HP augment, from +30 to +500, and a character can stack
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1bHlIyu150RrEaPMnxGatof_zNZGohM9FB3V3mqhejIU/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1bHlIyu150RrEaPMnxGatof_zNZGohM9FB3V3mqhejIU/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="augments.md" %}

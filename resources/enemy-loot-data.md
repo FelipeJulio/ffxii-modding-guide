@@ -11,7 +11,7 @@ For roughly 1,164 enemy instances across the game's areas, this sheet lists ever
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1TdoIEEUMS4JErov4ByUIWIDUMuotZcxiHOAi6Xelu08/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1TdoIEEUMS4JErov4ByUIWIDUMuotZcxiHOAi6Xelu08/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="enemy-and-area-data-map.md" %}

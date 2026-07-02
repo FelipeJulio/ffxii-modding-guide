@@ -17,5 +17,5 @@ All parameters are loaded from `{game}/x64/scripts/config/TheInsurgentsLearnable
 {% hint style="info" %}
 **Download & Documentation**
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/391" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/391" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}

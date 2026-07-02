@@ -15,7 +15,7 @@ When a reward or ingredient slot is unused, the game still lists it as Potion wi
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1joQbsDI60eVm4eOY93k61TgmQJbckrCSasdEiX9_j6g/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1joQbsDI60eVm4eOY93k61TgmQJbckrCSasdEiX9_j6g/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="inventory-contents.md" %}

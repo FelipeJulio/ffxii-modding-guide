@@ -11,7 +11,7 @@ The game uses one shared ID space for all of these categories, split into ranges
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWCAAAAAAAAOhIPm5hgWL8atA" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWCAAAAAAAAOhIPm5hgWL8atA" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="battlepack-data-reference.md" %}

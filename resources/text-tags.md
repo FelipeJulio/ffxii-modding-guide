@@ -12,7 +12,7 @@ Text tags are how the game embeds formatting, timing, button prompts, and dynami
 **Access the spreadsheet**
 For a narrative walkthrough of the tag system, see The Insurgent's Handbook's [Text Tags](https://xeavin.gitbook.io/the-insurgents-handbook/text/text-tags) and [Formats](https://xeavin.gitbook.io/the-insurgents-handbook/text/formats) pages.
 
-<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWWAAAAAAAAe4Z0XLzxY5VBCw" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWWAAAAAAAAe4Z0XLzxY5VBCw" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="the-insurgents-handbook.md" %}

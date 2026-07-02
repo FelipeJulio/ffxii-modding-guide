@@ -11,7 +11,7 @@ This sheet decodes the "Global Info" section of a save file byte by byte: story 
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://1drv.ms/x/s!Avp2cjfbfD1VgRLUKGdZBJ1suR7s" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://1drv.ms/x/s!Avp2cjfbfD1VgRLUKGdZBJ1suR7s" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="inventory-contents.md" %}

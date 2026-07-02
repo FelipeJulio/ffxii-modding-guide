@@ -25,6 +25,6 @@ The Toolkit is massive and touches almost every system in the game. Here is a br
 **Download & Setup**
 Because The Insurgent's Toolkit is incredibly powerful, it comes with its own extensive wiki. We highly recommend reading through it to understand how to properly set it up and utilize all of its features.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/160" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/160" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
 

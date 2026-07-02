@@ -17,7 +17,7 @@ With it, you can:
 {% hint style="info" %}
 **Official API & Documentation** The FF12 Lua Loader has an extensive list of known calls, functions, and memory addresses. To actually write Lua mods, you must consult its official documentation.
 
-<a href="https://xeavin.gitbook.io/ff12-lua-loader" class="button primary" data-icon="external-link-alt">Go to Official Documentation</a>
+<a href="https://xeavin.gitbook.io/ff12-lua-loader" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Documentation</a>
 {% endhint %}
 
 ---

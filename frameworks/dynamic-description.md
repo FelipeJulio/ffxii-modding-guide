@@ -16,5 +16,5 @@ If you are a modder creating new weapons or modifying stats dynamically, you can
 **Official Documentation**
 To learn how to integrate this framework into your own Lua mods and use its API calls to generate custom descriptions, visit the official page.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/466" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/466" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}

@@ -11,5 +11,5 @@ If you plan to reassign an action to a different animation, this sheet tells you
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1UYFBz27shCOHux1N5NOXNPS7rN7WJebxyhjoIg6DWs0/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1UYFBz27shCOHux1N5NOXNPS7rN7WJebxyhjoIg6DWs0/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

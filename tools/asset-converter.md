@@ -28,5 +28,5 @@ When you're finished, the tool packs your `.fbx` and `.png` files back into the 
 {% hint style="success" %}
 **Download & Documentation** For more details on advanced topics like bone assignments, scene-graphs, and morphing animations, check out the full documentation on the mod page.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/288" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/288" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}

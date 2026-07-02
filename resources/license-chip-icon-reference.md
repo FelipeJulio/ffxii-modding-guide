@@ -12,5 +12,5 @@ If you are using The Insurgent's Toolkit to give a custom license node its own i
 **Access the spreadsheet**
 Built to accompany The Insurgent's Toolkit's License Node Icons Editor.
 
-<a href="https://docs.google.com/spreadsheets/d/1TKyxjciZ-wDKQLBdx5gsGwnEM96HmsDw29qUDpwdl14/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1TKyxjciZ-wDKQLBdx5gsGwnEM96HmsDw29qUDpwdl14/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

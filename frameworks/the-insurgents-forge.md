@@ -18,7 +18,7 @@ The Insurgent's Forge bypasses this limitation. It allows you to:
 {% hint style="info" %}
 **Official Documentation** Because it completely changes how the game processes logic, learning The Insurgent's Forge requires reading its detailed breakdown of formulas, functions, assemblies, and middlewares.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/386" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/386" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
 
 ---

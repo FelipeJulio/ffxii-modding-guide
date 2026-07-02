@@ -11,7 +11,7 @@ EBP scripts (the map/event scripting system) work by calling into a fixed set of
 {% hint style="info" %}
 **Access the reference**
 
-<a href="https://xeavin.gitbook.io/the-insurgents-handbook/scripts/vm-call-targets" class="button primary" data-icon="external-link-alt">Open on The Insurgent's Handbook</a>
+<a href="https://xeavin.gitbook.io/the-insurgents-handbook/scripts/vm-call-targets" class="button primary" target="_blank" data-icon="external-link-alt">Open on The Insurgent's Handbook</a>
 {% endhint %}
 
 {% content-ref url="the-insurgents-handbook.md" %}

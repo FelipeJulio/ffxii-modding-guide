@@ -11,6 +11,6 @@ Every chest instance in the game (nearly 2,000 of them) is listed with its sourc
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1ZSwmTg18JVqgRNb0StEaBtPJAKKtV4DMiS9PNWL4Q8I/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1ZSwmTg18JVqgRNb0StEaBtPJAKKtV4DMiS9PNWL4Q8I/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 

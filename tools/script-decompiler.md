@@ -23,7 +23,7 @@ Once your edits are done, the tool compiles your C-like code back into a binary 
 {% hint style="info" %}
 **Official Page & Documentation** For complete installation instructions, command-line arguments, and a deep dive into the VM architecture, please visit the official mod page.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/124" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/124" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
 
 ---

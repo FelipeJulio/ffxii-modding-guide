@@ -11,5 +11,5 @@ Backgrounds, party members, NPCs, monsters, summons, treasures, and weapons all 
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWDAAAAAAAA9tJrrBaY-Z83Yg" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://onedrive.live.com/:x:/g/personal/553D7CDB377276FA/Qfp2cjfbfD0ggFWDAAAAAAAA9tJrrBaY-Z83Yg" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

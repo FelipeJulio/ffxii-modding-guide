@@ -107,7 +107,7 @@ Section icons are shared per category: tools use `tool.svg`, frameworks use `fra
 **Buttons** for outbound links (official mod pages, Discord):
 
 ```
-<a href="https://..." class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://..." class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 ```
 
 **Content references** for internal cross-links. Use at the end of a section to point the reader to a related page: a tool or framework page links to its matching example, and a getting-started page links to the relevant tool or framework.

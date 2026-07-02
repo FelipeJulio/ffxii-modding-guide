@@ -31,7 +31,7 @@ When installing the FF12 External File Loader, it will ask you to choose a hook 
 {% hint style="info" %}
 **Download Vortex**
 
-<a href="https://www.nexusmods.com/site/mods/1" class="button primary" data-icon="external-link-alt">Download Vortex</a>
+<a href="https://www.nexusmods.com/site/mods/1" class="button primary" target="_blank" data-icon="external-link-alt">Download Vortex</a>
 {% endhint %}
 
 ---
@@ -44,7 +44,7 @@ When installing the FF12 External File Loader, it will ask you to choose a hook 
 **FF12 Plugin Required**
 Mod Organizer 2 does not support Final Fantasy XII out of the box. You must install the community-made FF12 plugin. All installation instructions are on the plugin's mod page.
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/430" class="button primary" data-icon="external-link-alt">FF12 Plugin for Mod Organizer 2</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/430" class="button primary" target="_blank" data-icon="external-link-alt">FF12 Plugin for Mod Organizer 2</a>
 {% endhint %}
 
 **How to install mods with Mod Organizer 2:**
@@ -64,7 +64,7 @@ When installing the FF12 External File Loader, it will ask you to choose a hook 
 {% hint style="info" %}
 **Download Mod Organizer 2**
 
-<a href="https://github.com/Modorganizer2/modorganizer/releases" class="button primary" data-icon="external-link-alt">Download Mod Organizer 2</a>
+<a href="https://github.com/Modorganizer2/modorganizer/releases" class="button primary" target="_blank" data-icon="external-link-alt">Download Mod Organizer 2</a>
 {% endhint %}
 
 ---

@@ -30,6 +30,6 @@ Mods deployed via Vortex or MO2 are placed at `mods/deploy/ff12data/`, which mir
 {% hint style="info" %}
 **Download & Documentation**
 
-<a href="https://www.nexusmods.com/finalfantasy12/mods/2" class="button primary" data-icon="external-link-alt">Go to Official Mod Page</a>
+<a href="https://www.nexusmods.com/finalfantasy12/mods/2" class="button primary" target="_blank" data-icon="external-link-alt">Go to Official Mod Page</a>
 {% endhint %}
 

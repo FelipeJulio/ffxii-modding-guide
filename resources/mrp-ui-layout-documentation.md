@@ -11,7 +11,7 @@ An MRP file holds the position, size, and texture of one part of the game's UI, 
 {% hint style="info" %}
 **Access the spreadsheet**
 
-<a href="https://docs.google.com/spreadsheets/d/1Nojt7MhWiGa97OhUFpZIObFiTSZLmZyTJ6NIZGXroKI/edit" class="button primary" data-icon="external-link-alt">Open the Spreadsheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1Nojt7MhWiGa97OhUFpZIObFiTSZLmZyTJ6NIZGXroKI/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}
 
 {% content-ref url="ui-settings-documentation.md" %}
