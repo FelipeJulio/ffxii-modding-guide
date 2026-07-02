@@ -2,9 +2,7 @@
 
 **Augments** is an in-progress catalogue of every augment in the game.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

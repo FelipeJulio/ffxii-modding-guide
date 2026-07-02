@@ -2,9 +2,7 @@
 
 **Battlepack Data Reference** is a full inventory of everything defined inside `battle_pack.bin`, the game file that holds nearly all battle-related data.
 
-| Credits |
-| --- |
-| Xeavin |
+**Credits:** Xeavin
 
 ### What can you do with this?
 

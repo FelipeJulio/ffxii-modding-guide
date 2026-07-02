@@ -2,9 +2,7 @@
 
 **Inventory Contents** is the master ID list for every "content" the game can reference: items, equipment, magicks, technicks, gambit conditions, key items, quest packages, rewards, mist unlocks, bazaar goods, and gil amounts.
 
-| Credits |
-| --- |
-| Xeavin, Eochaid |
+**Credits:** Xeavin, Eochaid
 
 ### What can you do with this?
 

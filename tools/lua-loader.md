@@ -2,6 +2,8 @@
 
 The **FF12 Lua Loader** is the foundational module that enables dynamic Lua scripting in Final Fantasy XII.
 
+**Credits:** ffgriever
+
 ### What does it do?
 
 Instead of hard-patching the game's `.exe` or dealing exclusively with static asset files, the FF12 Lua Loader injects a Lua engine into the game. It provides an API of memory hooks and internal game functions.

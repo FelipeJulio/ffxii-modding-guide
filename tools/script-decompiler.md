@@ -2,6 +2,8 @@
 
 The **FF12 VM Script Decompiler** is a tool specifically focused on the game's map logic and event files.
 
+**Credits:** ffgriever
+
 ### What does it do?
 
 The game's maps and events run on a custom Virtual Machine using scripts stored inside `.ebp` files. This tool decompiles these raw binary `.ebp` scripts into a readable, C-like language.

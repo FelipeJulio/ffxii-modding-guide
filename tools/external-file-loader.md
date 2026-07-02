@@ -2,6 +2,8 @@
 
 The **FF12 External File Loader** is the foundational mod that makes modern FFXII modding possible. It is a **mandatory requirement** for virtually all mods.
 
+**Credits:** ffgriever
+
 ### What does it do?
 
 By default, all game assets are packed inside the massive `FFXII_TZA.vbf` archive. The FF12 External File Loader intercepts the game at runtime and tricks it into reading loose files from a folder on your disk instead: without ever touching the original `.vbf` file.

@@ -2,9 +2,7 @@
 
 **Enemy AI Scripts** is the full decode of every enemy's battle AI script, the state-machine logic that decides what an enemy actually does in combat.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

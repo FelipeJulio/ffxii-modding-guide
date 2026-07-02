@@ -2,9 +2,7 @@
 
 **Text Tags** is a spreadsheet listing every text tag the game uses inside dialogue and menu strings.
 
-| Credits |
-| --- |
-| Xeavin |
+**Credits:** Xeavin
 
 ### What can you do with this?
 

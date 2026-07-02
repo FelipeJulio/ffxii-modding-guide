@@ -2,9 +2,7 @@
 
 **Enemy Action Groups** is a spreadsheet documenting weighted random-attack pools an enemy's AI can trigger.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

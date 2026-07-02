@@ -2,9 +2,7 @@
 
 **Enemy Loot Data** is a spreadsheet of per-enemy drop, steal, poach, and bounty loot.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

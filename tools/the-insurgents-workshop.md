@@ -2,6 +2,8 @@
 
 **The Insurgent's Workshop** is a command-line tool designed for modifying Final Fantasy XII: The Zodiac Age.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 By default, the game's binary files are unreadable by humans. The Insurgent's Workshop solves this problem by allowing you to decompile (unpack) these binary files into readable formats like JSON or TXT.

@@ -2,9 +2,7 @@
 
 **Action Formulas Reference** is a spreadsheet documenting all 108 damage and effect Formulas the game uses, and the individual Functions each formula calls internally.
 
-| Credits |
-| --- |
-| Eochaid, Xeavin |
+**Credits:** Eochaid, Xeavin
 
 ### What can you do with this?
 

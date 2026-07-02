@@ -4,6 +4,8 @@
 
 As the game stores virtually all of its assets and logic in a single, massive archive called `FFXII_TZA.vbf`, you need a dedicated program to peer inside it. VBF Browser acts essentially as a file explorer specifically tailored for this archive format.
 
+**Credits:** VaanSkyPirate
+
 ### What does it do?
 
 - **Archive Exploration:** View the full internal directory structure of the `.vbf` file exactly as the game engine reads it.

@@ -2,6 +2,8 @@
 
 **Dynamic Preview Icons** fully reworks the preview icon system for inventory content in Final Fantasy XII.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 In the vanilla game, preview icons (shown in the equipment menu when selecting weapons, armor, accessories, etc.) are stored in compressed image packs with a fixed resolution of 64×96. Each pack contains up to 64 icons sharing a single 256-color palette, severely limiting color detail per icon. Icons are also tied to equipment identifiers rather than models, meaning swapping a weapon model does not update its icon.

@@ -2,9 +2,7 @@
 
 **Battlepack Section 57: Bazaar Data** is the full decode of Section 57, the game data section that defines every bazaar recipe.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

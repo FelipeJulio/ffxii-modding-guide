@@ -4,6 +4,8 @@ The **FFXII Model Viewer** is a web-based tool that lets you load and preview th
 
 Whether you are exploring the game's assets out of curiosity or actively testing modifications you've made, this tool provides an accessible way to visualize FFXII's 3D models.
 
+**Credits:** FehDead
+
 ### What does it do?
 
 As the name suggests, it allows you to load the game's models in multiple formats:

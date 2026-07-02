@@ -2,6 +2,8 @@
 
 The **XII Font Editor** is a web-based utility for editing and creating custom fonts for Final Fantasy XII.
 
+**Credits:** FehDead
+
 {% hint style="danger" %}
 **Experimental Tool** Please note that this tool is currently **experimental**. Some features might not work precisely as expected, and bugs may occur. Always keep backups of your original font files before making changes.
 {% endhint %}

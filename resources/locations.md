@@ -2,9 +2,7 @@
 
 **Locations** is the master index of every location in the game and which underlying files it loads.
 
-| Credits |
-| --- |
-| Xeavin |
+**Credits:** Xeavin
 
 ### What can you do with this?
 

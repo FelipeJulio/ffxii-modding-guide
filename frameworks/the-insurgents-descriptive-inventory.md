@@ -2,6 +2,8 @@
 
 **The Insurgent's Descriptive Inventory** allows setting fully custom descriptions for any inventory content viewed in menus.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 The vanilla game generates descriptions dynamically for equipment, but with severe limitations: if a weapon has more than one element only the first is shown, more than 3 status effects collapse into "various status effects", elemental potency and metal value are never displayed, and so on. These issues become even more visible when using mods that modify equipment.

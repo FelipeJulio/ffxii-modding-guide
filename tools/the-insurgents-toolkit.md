@@ -6,6 +6,8 @@ If you are a modder, this tool is practically mandatory. It acts as a bridge bet
 
 It also includes an export functionality, allowing you to edit files live in the game and export them directly to use as a mod.
 
+**Credits:** Xeavin
+
 ---
 
 ### What does it do?

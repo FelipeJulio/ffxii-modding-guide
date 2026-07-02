@@ -2,9 +2,7 @@
 
 **MRP (UI Layout) Documentation** is a spreadsheet documenting the game's MRP files, the binary format behind menu and HUD layout. Researched using The Insurgent's Toolkit.
 
-| Credits |
-| --- |
-| Kule, Neonsquare |
+**Credits:** Kule, Neonsquare
 
 ### What can you do with this?
 

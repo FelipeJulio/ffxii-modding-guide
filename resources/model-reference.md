@@ -2,9 +2,7 @@
 
 **Model Reference** is an index of every 3D model file in the game, identified by its model ID and file path.
 
-| Credits |
-| --- |
-| Xeavin, Eochaid |
+**Credits:** Xeavin, Eochaid
 
 ### What can you do with this?
 

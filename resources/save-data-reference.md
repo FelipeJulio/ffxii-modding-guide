@@ -2,9 +2,7 @@
 
 **Save Data Reference** is a memory-offset map of the game's save data.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

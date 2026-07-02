@@ -2,9 +2,7 @@
 
 **UI Settings Documentation** is a spreadsheet documenting `uisize.json`, the game file controlling UI element sizing and positioning. Researched using The Insurgent's Toolkit.
 
-| Credits |
-| --- |
-| Kule, Neonsquare |
+**Credits:** Kule, Neonsquare
 
 ### What can you do with this?
 

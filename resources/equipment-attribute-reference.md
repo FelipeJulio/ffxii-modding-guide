@@ -2,9 +2,7 @@
 
 **Equipment Attribute Reference** is a spreadsheet mapping every gear Attribute ID to the stat bonuses and status effects it grants.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

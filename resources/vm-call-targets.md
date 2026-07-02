@@ -2,9 +2,7 @@
 
 **VM Call Targets** is a low-level reference for every VM call the game's script VM can invoke, including argument types and in-memory function addresses.
 
-| Credits |
-| --- |
-| Xeavin |
+**Credits:** Xeavin
 
 ### What can you do with this?
 

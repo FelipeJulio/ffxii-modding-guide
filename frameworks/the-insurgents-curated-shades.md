@@ -2,6 +2,8 @@
 
 **The Insurgent's Curated Shades** allows modifying which actions can be cast by the Shades of Black technick and setting individual chances for each one.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 In the vanilla game, Shades of Black randomly casts one of a fixed list of black magicks (Fire, Fira, Firaga, Thunder, etc.), each with an equal chance. The pool is determined automatically by magick type.

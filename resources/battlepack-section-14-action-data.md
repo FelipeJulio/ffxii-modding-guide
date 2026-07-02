@@ -2,9 +2,7 @@
 
 **Battlepack Section 14: Action Data** is a full decode of Section 14, the game data section that defines every action (Magick, Attack, Item, Technick) in the game.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

@@ -2,6 +2,8 @@
 
 **The Insurgent's Forge** is a Lua-based framework that runs on top of the FF12 Lua Loader, designed specifically to overhaul how the game handles action formulas.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 In the vanilla game, every action (like casting _Cure_ or attacking with a sword) uses a "formula" to determine what happens. This formula calculates damage, checks for elemental immunities, adds status effects, and determines if the attack misses. These formulas are usually hardcoded in the game's executable.

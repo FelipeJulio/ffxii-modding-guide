@@ -2,6 +2,8 @@
 
 The **DDS Phyre Tool** is a simple but incredibly useful command-line converter specifically built for the PhyreEngine's texture format.
 
+**Credits:** ffgriever
+
 ### What does it do?
 
 Final Fantasy XII stores many of its textures in a `.dds.phyre` format. Standard image editors (like Photoshop or GIMP) cannot open `.phyre` files natively.

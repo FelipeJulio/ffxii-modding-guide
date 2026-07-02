@@ -2,9 +2,7 @@
 
 **Action Animations Reference** is a spreadsheet cataloguing the visual animation played by every spell, weapon hit, and mist action in the game.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

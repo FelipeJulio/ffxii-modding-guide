@@ -2,6 +2,8 @@
 
 **The Insurgent's Stat Lores** allows modifying existing stat lores and adding entirely new ones to the game.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 In the vanilla game, stat lores are augments acquired from license nodes that increase a character's stats (HP Lore, Battle Lore, Magick Lore). This mod expands the system to support all stats and multiple acquisition methods:

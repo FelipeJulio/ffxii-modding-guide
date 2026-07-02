@@ -2,9 +2,7 @@
 
 **Battlepack Section 13: Equipment Stats** is the full raw dump of Section 13, the game data section that defines the mechanical stats of every weapon, shield, helm, armor, and accessory.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

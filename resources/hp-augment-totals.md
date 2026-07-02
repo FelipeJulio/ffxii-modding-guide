@@ -2,9 +2,7 @@
 
 **HP Augment Totals** is a lookup table of every possible combination of HP augments and the total HP bonus they add up to.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

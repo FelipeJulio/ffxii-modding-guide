@@ -2,9 +2,7 @@
 
 **Gear Acquisition** is a spreadsheet listing every weapon, shield, helm, armor, and accessory in the game with every way a player can obtain it.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

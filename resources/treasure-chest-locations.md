@@ -2,9 +2,7 @@
 
 **Treasure Chest Locations** is the full list of every treasure chest in the game, its exact location, and its loot table.
 
-| Credits |
-| --- |
-| Eochaid, Xeavin, ffgriever |
+**Credits:** Eochaid, Xeavin, ffgriever
 
 ### What can you do with this?
 

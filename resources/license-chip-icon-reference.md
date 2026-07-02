@@ -2,9 +2,7 @@
 
 **License Chip Icon Reference** is a spreadsheet that maps out `license_chip.bin`, the game file controlling which icon shows up on each node of the License Board.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 

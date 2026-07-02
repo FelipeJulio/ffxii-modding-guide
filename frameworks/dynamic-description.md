@@ -2,6 +2,8 @@
 
 **Dynamic Description** is a real-time text generator and API for Final Fantasy XII: The Zodiac Age.
 
+**Credits:** FehDead
+
 ### What does it do?
 
 Usually, the descriptions for items, weapons, or spells are hardcoded as static text. If you change a sword's attack power using a mod, its description will still show the old value unless you manually edit the text files too.

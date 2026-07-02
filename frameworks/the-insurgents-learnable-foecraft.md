@@ -2,6 +2,8 @@
 
 **The Insurgent's Learnable Foecraft** adds a configurable system for learning actions from foes while fighting them.
 
+**Credits:** Xeavin
+
 ### What does it do?
 
 In the vanilla game, there is no mechanic for learning enemy actions mid-battle. This mod introduces that system with full Lua configuration:

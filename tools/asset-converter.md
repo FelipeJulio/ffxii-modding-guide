@@ -2,6 +2,8 @@
 
 The **FFXII Asset Converter** is a tool for anyone looking to modify the game's visual assets, specifically 3D models and advanced textures.
 
+**Credits:** Roelin
+
 ### What does it do?
 
 Similar to other decompilers, this tool converts the game's original complex visual assets into standard, easy-to-use intermediary formats, and then packs them back when you're done.

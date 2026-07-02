@@ -2,9 +2,7 @@
 
 **Enemy & Area Data Map** is the full enemy and unit configuration map across every ARD (area) file in the game.
 
-| Credits |
-| --- |
-| Eochaid |
+**Credits:** Eochaid
 
 ### What can you do with this?
 
