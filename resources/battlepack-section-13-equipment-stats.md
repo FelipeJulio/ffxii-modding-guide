@@ -12,6 +12,10 @@ This is the master gear stat table: attack power, defense, range, formula link, 
 The Insurgent's Toolkit warns against reordering equipment or changing an item's type unless swapping within the same category, doing otherwise can break inventory sorting or the game's type checks. Each equipment type also has an inventory slot limit (Weapons 200, Armor 140, Accessories 48, Ammunition 32).
 {% endhint %}
 
+{% hint style="success" %}
+Those exact slot limits (200/140/48/32, adding up to the 420 total gear items) are directly visible in the Toolkit's own Inventory Editor dropdowns, and its live Equipment & Attributes section carries the same ~557 total entries this sheet documents. Handy to cross-check counts live if the spreadsheet ever feels out of date.
+{% endhint %}
+
 {% hint style="info" %}
 **Access the spreadsheet**
 

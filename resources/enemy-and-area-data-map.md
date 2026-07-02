@@ -6,7 +6,7 @@
 
 ### What can you do with this?
 
-Every enemy, NPC, and other unit in the game is defined inside an ARD file: its stats, AI script links, model, animations, and loot table, all cross-referenced by ID. This spreadsheet decodes that entire structure, split across tabs that mirror The Insurgent's Toolkit's ARD Editor sections exactly: Units, Classes, Default/Additive Stats, Models, and Special Animations. It is split into two linked workbooks (this one and Enemy AI Scripts) because the data is too large for a single spreadsheet.
+Every enemy, NPC, and other unit in the game is defined inside an ARD file: its stats, AI script links, model, animations, and loot table, all cross-referenced by ID. This spreadsheet decodes that entire structure across tabs that mirror The Insurgent's Toolkit's ARD Editor sections exactly: Units (the main tab, one row per enemy instance, linking everything else together), Classes (shared templates for detection range, elemental resistance, and movement behavior that many named units reuse), Default/Additive Stats (a unit's real stat is the default value plus the additive value, which lets reused enemy species share a base block while varying slightly per encounter), Models (the subset of models used within this specific area), and Special Animations (which combat animation a unit's AI script triggers for a given attack). It is split into two linked workbooks (this one and Enemy AI Scripts) because the data is too large for a single spreadsheet, Google Sheets has a 10 million cell limit.
 
 {% hint style="warning" %}
 The Insurgent's Toolkit only keeps one `.ard` file loaded in memory at a time, and most `.ard` files are shared by multiple locations, so editing one affects everywhere it's used.
