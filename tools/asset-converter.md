@@ -22,7 +22,7 @@ When you're finished, the tool packs your `.fbx` and `.png` files back into the 
 {% endhint %}
 
 {% hint style="warning" %}
-**Important Requirement** You will need the **MSVC Runtime Libraries** installed on your PC to run the GUI version of this tool.
+**Important Requirement** You will need the **Microsoft Visual C++ Runtime** installed on your PC to run the GUI version of this tool.
 {% endhint %}
 
 {% hint style="success" %}

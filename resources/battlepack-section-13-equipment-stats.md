@@ -13,7 +13,7 @@ The Insurgent's Toolkit warns against reordering equipment or changing an item's
 {% endhint %}
 
 {% hint style="success" %}
-Those exact slot limits (200/140/48/32, adding up to the 420 total gear items) are directly visible in the Toolkit's own Inventory Editor dropdowns, and its live Equipment & Attributes section carries the same ~557 total entries this sheet documents. Handy to cross-check counts live if the spreadsheet ever feels out of date.
+Those exact slot limits (200/140/48/32, adding up to the 420 total gear items) are directly visible in the Toolkit's own Inventory Editor dropdowns, and its live Equipment & Attributes section covers the same 420 gear entries (557 rows including headers) this sheet documents.
 {% endhint %}
 
 {% hint style="info" %}

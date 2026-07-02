@@ -4,7 +4,7 @@ Before installing any tools, it is important to understand how Final Fantasy XII
 
 ## The Old Way: DrakLab and the `.vbf` Archive
 
-By default, FFXII stores all of its 30GB+ of game files inside a single encrypted archive file named `FFXII_TZA.vbf`.
+By default, FFXII stores all of its 30GB+ of game files inside a single large packed archive file named `FFXII_TZA.vbf`.
 
 In the early days of modding, tools like the **DrakLab Mod Loader** were used to inject modified files directly back into this massive `.vbf` archive.
 
@@ -14,7 +14,7 @@ In the early days of modding, tools like the **DrakLab Mod Loader** were used to
 
 ## The New Way: FF12 External File Loader
 
-To solve these problems, the community moved away from modifying the `.vbf` archive entirely. This was made possible by the **[External File Loader](../tools/external-file-loader.md)**.
+To solve these problems, the community moved away from modifying the `.vbf` archive entirely. This was made possible by the **[FF12 External File Loader](../tools/external-file-loader.md)**.
 
 Instead of injecting files into the archive, the FF12 External File Loader intercepts the game as it runs. It creates a local layer of files and tricks the game into reading your "unpacked" mod files directly from a normal folder on your computer.
 

@@ -10,9 +10,6 @@ The **VBF Browser** is an essential tool that lets you browse the massive `FFXII
 
 ### How to Extract a File
 
-{% content-ref url="../tools/vbf-browser.md" %}
-[Learn more about VBF Browser](../tools/vbf-browser.md)
-{% endcontent-ref %}
 Extracting a file is very simple:
 
 1. **Download and Open:** Download the tool from Nexus Mods and run the application.
@@ -25,3 +22,7 @@ Once you have extracted the file, you are ready for the next step: modifying or 
 {% hint style="warning" %}
 **Important:** When extracting files like `battle_pack.bin`, it is highly recommended to recreate and keep the **complete folder structure** intact on your computer. You will need this exact path later when creating a mod loadable by the FF12 External File Loader, which will be explained in detail later in the guide.
 {% endhint %}
+
+{% content-ref url="../tools/vbf-browser.md" %}
+[Learn more about VBF Browser](../tools/vbf-browser.md)
+{% endcontent-ref %}

@@ -70,7 +70,7 @@ This is where you will find the 3D models and textures for all the weapons in th
 #### Weapon Statistics & Game Sessions
 
 `ps2data/image/ff12/us/test_battle/us/binaryfile/battle_pack.bin`
-This path holds the binary files related to various game sessions. For example, inside the `battle_pack.bin` file, you will find `section_13.bin`, which contains the binary data for all weapon statistics (status, attributes, etc.).
+This path holds the binary files related to various game sessions. For example, inside the `battle_pack.bin` file, you will find `section_013.bin`, which contains the binary data for all weapon statistics (status, attributes, etc.).
 
 #### Map Logic & NPCs
 

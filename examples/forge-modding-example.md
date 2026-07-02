@@ -1,3 +1,3 @@
-﻿# Creating an Insurgent's Forge Function
+﻿# Creating a Function for The Insurgent's Forge
 
 To-do.

@@ -2,7 +2,7 @@
 
 In this guide, we will build a Lua mod from scratch, improving it step by step. By the end, the mod will display an in-game popup with the name of the current location every time the player changes areas in Rabanastre.
 
-Before starting, make sure you have the **[FF12 External File Loader](../tools/external-file-loader.md)** and the **[FF12 Lua Loader](../tools/lua-loader.md)** installed. If not, check the [Installing Mods](installing-mods.md) guide first.
+Before starting, make sure you have the **[FF12 External File Loader](../tools/external-file-loader.md)** and the **[FF12 Lua Loader](../tools/lua-loader.md)** installed. If not, check the [Installing Mods](../getting-started/installing-mods.md) guide first.
 
 ---
 
@@ -52,7 +52,7 @@ end)
 
 ## Step 3: Creating an External Module
 
-Raw IDs are not very readable. Let's create a **module**: a separate file that maps IDs to human-readable names: and load it into our script.
+Raw IDs are not very readable. Let's create a **module**, a separate file that maps IDs to human-readable names, and load it into our script.
 
 Create `x64/scripts/MapAnnouncer/locations.lua`:
 
@@ -81,8 +81,8 @@ return {
 This module is a plain Lua file that returns a table. The key is the location ID and the value is its name.
 
 {% hint style="info" %}
-**Why not use `require`?**
-The FF12 Lua Loader runs scripts in a sandboxed environment. Standard `require` does not work here. Instead, we load files manually using `loadfile` with a sandboxed metatable: a common pattern in FFXII mods.
+**Loading external files**
+To pull in a `.lua` file from disk, we use `loadfile`, giving each one its own sandboxed environment. This is the standard way to load modules and config in FFXII mods.
 {% endhint %}
 
 Now update `MapAnnouncer.lua` to load the module and use it:

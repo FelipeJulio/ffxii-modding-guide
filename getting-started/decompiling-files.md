@@ -15,15 +15,17 @@ This is the primary tool used to unpack and pack the game's general binary files
 {% content-ref url="../tools/the-insurgents-workshop.md" %}
 [Learn more about The Insurgent's Workshop](../tools/the-insurgents-workshop.md)
 {% endcontent-ref %}
+
 ---
 
-### FF12 VM Script Decompiler and Compiler
+### FF12 VM Script Decompiler
 
 This tool specializes in decompiling the game's map and event scripts (`.ebp` files) into a C-like programming language. It is essential for editing map logic, adding NPCs, and changing dialogues.
 
 {% content-ref url="../tools/script-decompiler.md" %}
-[Learn more about the VM Script Decompiler](../tools/script-decompiler.md)
+[Learn more about the FF12 VM Script Decompiler](../tools/script-decompiler.md)
 {% endcontent-ref %}
+
 ---
 
 ### DDS Phyre Tool
@@ -33,6 +35,7 @@ A converter for texture files. It unpacks the game's `.dds.phyre` textures into 
 {% content-ref url="../tools/dds-phyre-tool.md" %}
 [Learn more about DDS Phyre Tool](../tools/dds-phyre-tool.md)
 {% endcontent-ref %}
+
 ---
 
 ### FFXII Asset Converter
@@ -40,8 +43,9 @@ A converter for texture files. It unpacks the game's `.dds.phyre` textures into 
 A powerful tool designed to convert 3D models (`.dae.phyre`) and textures into common formats like `.fbx` and `.png`. It includes a built-in 3D previewer and is essential for editing character meshes, weapons, and maps.
 
 {% content-ref url="../tools/asset-converter.md" %}
-[Learn more about Asset Converter](../tools/asset-converter.md)
+[Learn more about the FFXII Asset Converter](../tools/asset-converter.md)
 {% endcontent-ref %}
+
 ---
 
 ### XII Font Editor
@@ -51,4 +55,3 @@ An experimental web-based tool for editing the game's fonts. It handles atlas (`
 {% content-ref url="../tools/font-editor.md" %}
 [Learn more about XII Font Editor](../tools/font-editor.md)
 {% endcontent-ref %}
----

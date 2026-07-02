@@ -27,7 +27,7 @@
   - [XII Font Editor](tools/font-editor.md)
   - [FFXII Model Viewer](tools/model-viewer.md)
 
-- [Frameworks](frameworks/README.md)
+- [Frameworks & Mod Tools](frameworks/README.md)
   - [The Insurgent's Forge](frameworks/the-insurgents-forge.md)
   - [Dynamic Description](frameworks/dynamic-description.md)
   - [Dynamic Preview Icons](frameworks/dynamic-preview-icons.md)
@@ -65,7 +65,7 @@
 
 - [Examples & Guides](examples/README.md)
   - [Creating a Custom NPC with the FF12 VM Script Decompiler](examples/ebp-modding-example.md)
-  - [Creating an Insurgent's Forge Function](examples/forge-modding-example.md)
+  - [Creating a Function for The Insurgent's Forge](examples/forge-modding-example.md)
   - [Creating a Map Announcer Mod with the FF12 Lua Loader](examples/lua-modding-example.md)
 
 - [Packing and Distributing](packaging/README.md)

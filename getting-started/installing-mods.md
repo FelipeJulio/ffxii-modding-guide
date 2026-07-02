@@ -38,7 +38,7 @@ When installing the FF12 External File Loader, it will ask you to choose a hook 
 
 ## Mod Organizer 2
 
-**Mod Organizer 2 (Mod Organizer 2)** is the recommended mod manager for FFXII. It uses a virtual file system to keep your game directory completely clean: mods are never written directly into the game folder. The only extra step compared to Vortex is a one-time plugin installation.
+**Mod Organizer 2** is the recommended mod manager for FFXII. It uses a virtual file system to keep your game directory completely clean: mods are never written directly into the game folder. The only extra step compared to Vortex is a one-time plugin installation.
 
 {% hint style="warning" %}
 **FF12 Plugin Required**

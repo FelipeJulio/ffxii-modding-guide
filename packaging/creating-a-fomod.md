@@ -1,6 +1,6 @@
 ﻿# Creating a FOMOD Installer
 
-When distributing your mods, you want the installation process to be as smooth as possible for players. A **FOMOD installer** allows mod managers like Vortex and MO2 to present a graphical wizard when the user installs your mod, complete with custom text, images, and optional files to select.
+When distributing your mods, you want the installation process to be as smooth as possible for players. A **FOMOD installer** allows mod managers like Vortex and Mod Organizer 2 to present a graphical wizard when the user installs your mod, complete with custom text, images, and optional files to select.
 
 Even if your mod doesn't have optional files, using a FOMOD is considered a **best practice** because it guarantees that your files are routed to the correct directories inside the mod manager.
 
@@ -75,7 +75,7 @@ The `ModuleConfig.xml` solves this routing perfectly:
 </config>
 ```
 
-When Vortex or MO2 reads this file, it will take the contents of your zip's `data/mods` folder and place it exactly where it needs to be in the player's game directory. It will do the same for the `data/x64` folder.
+When Vortex or Mod Organizer 2 reads this file, it will take the contents of your zip's `data/mods` folder and place it exactly where it needs to be in the player's game directory. It will do the same for the `data/x64` folder.
 
 ---
 
@@ -133,7 +133,7 @@ If you have optional features (like a Hard Mode patch or different language tran
 Before uploading to Nexus Mods, you should always test your installer locally:
 
 1. Select the `fomod` and `data` folders and **Zip them**.
-2. Open your Mod Manager (MO2 or Vortex).
+2. Open your Mod Manager (Mod Organizer 2 or Vortex).
 3. Install the mod from the Zip file you just created.
 4. Verify that the files were correctly placed in the `mods/deploy/ff12data/` and `x64/scripts/` folders.
 

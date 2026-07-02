@@ -15,8 +15,6 @@ Whether you are editing dialogues or completely redesigning a map, The Insurgent
 - **Textures & UI Elements:** Extensive documentation on UI sprites, textures, and their exact coordinates and properties within the game's archives.
 - **Game Mechanics:** Deep dives into how certain math formulas and stats are handled internally by the game engine.
 
-It is a highly recommended reference for modders.
-
 {% hint style="info" %}
 **Access The Insurgent's Handbook**
 The Insurgent's Handbook is hosted on GitBook and is continuously updated by the community.

@@ -14,7 +14,7 @@ To respect and protect the rights of these creators, this guide **does not re-ho
 
 You are completely free to distribute your mods however and wherever you like, whether that's GitHub, Nexus Mods, ModDB, Google Drive, or personal websites.
 
-However, **we highly recommend publishing your mods on [Nexus Mods](https://www.nexusmods.com/finalfantasy12)**. The vast majority of the player base and modding tools reside there, making it an established, complete ecosystem. By hosting your mod on Nexus, you ensure players can easily find it, track updates, and install it seamlessly via Mod Managers like Vortex or MO2.
+However, **we highly recommend publishing your mods on [Nexus Mods](https://www.nexusmods.com/finalfantasy12)**. The vast majority of the player base and modding tools reside there, making it an established, complete ecosystem. By hosting your mod on Nexus, you ensure players can easily find it, track updates, and install it seamlessly via Mod Managers like Vortex or Mod Organizer 2.
 
 ## 3. Handling Dependencies
 
@@ -35,7 +35,7 @@ This ensures that players always download the most up-to-date version of the dep
 
 ## 4. Respecting Other Creators
 
-The Code of Conduct of the modding community is respect for other people's work.
+Respect for other people's work is the core of this community.
 
 - **No Redistribution:** Never re-upload or distribute someone else's mod without their explicit permission, unless the mod is specifically designed to allow users to distribute their own custom configurations (and you are only distributing your configuration files).
 - **Give Credit:** If someone helped you, or if you used an open-source tool, resource, or template created by another modder, **always credit them** clearly on your mod page.

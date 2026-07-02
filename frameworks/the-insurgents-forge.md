@@ -28,5 +28,5 @@ The Insurgent's Forge bypasses this limitation. It allows you to:
 Want to see how simple it is to write an Insurgent's Forge function? Check out our quick example!
 
 {% content-ref url="../examples/forge-modding-example.md" %}
-[View Example: Creating an Insurgent's Forge Function](../examples/forge-modding-example.md)
+[View Example: Creating a Function for The Insurgent's Forge](../examples/forge-modding-example.md)
 {% endcontent-ref %}

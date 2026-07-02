@@ -11,6 +11,7 @@ To actually write these mods, you must use the official documentation as your pr
 {% content-ref url="../tools/lua-loader.md" %}
 [Learn more about FF12 Lua Loader](../tools/lua-loader.md)
 {% endcontent-ref %}
+
 ---
 
 ## Recommended Code Structure
@@ -23,7 +24,7 @@ When structuring the code of your Lua mod, it is highly recommended to follow es
 │   ├── module1.lua
 │   └── module2.lua
 └── config/
-    └── MyModName/
+    └── MyModNameConfig/
         └── settings.lua
 ```
 
@@ -35,7 +36,7 @@ This is the entry point of your mod. Its primary responsibility is **not** to ho
 
 Separate your logic into smaller files (modules) and place them inside this folder. For example, one file for handling UI and another for math. Your main file will just load these modules.
 
-### 3. The Config Folder (`/config/MyModName/`)
+### 3. The Config Folder (`/config/MyModNameConfig/`)
 
 Place a `settings.lua` or `settings.json` file inside the `config` folder to expose parameters safely to the end user or other modders, avoiding the need for them to edit your core code.
 
@@ -46,8 +47,9 @@ Place a `settings.lua` or `settings.json` file inside the `config` folder to exp
 Now that you understand the best practices for folder structure, you can see how this looks in practice with our code examples.
 
 {% content-ref url="../examples/lua-modding-example.md" %}
-[View Example: Reading Map IDs](../examples/lua-modding-example.md)
+[View Example: Creating a Map Announcer Mod](../examples/lua-modding-example.md)
 {% endcontent-ref %}
+
 ---
 
 ## Scripting Frameworks
@@ -61,6 +63,7 @@ A massive framework that overhauls how the game handles action formulas. Instead
 {% content-ref url="../frameworks/the-insurgents-forge.md" %}
 [Learn more about The Insurgent's Forge](../frameworks/the-insurgents-forge.md)
 {% endcontent-ref %}
+
 ### Dynamic Description
 
 An API and framework designed to generate real-time item and ability descriptions in the UI by reading the battlepack data directly from the game's memory.

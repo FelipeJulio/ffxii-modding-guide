@@ -25,7 +25,7 @@ The FF12 External File Loader is actually two components bundled together:
 - **FF12 Module Loader**: loads native `.dll` modules when the game starts, enabling features like the FF12 External File Loader itself.
 - **FF12 External File Loader**: the module that intercepts file reads and redirects them to your local mod folder.
 
-Mods deployed via Vortex or MO2 are placed at `mods/deploy/ff12data/`, which mirrors the internal VBF structure. The FF12 External File Loader checks this folder first; if a file isn't found there, it falls back to the original `.vbf`.
+Mods deployed via Vortex or Mod Organizer 2 are placed at `mods/deploy/ff12data/`, which mirrors the internal VBF structure. The FF12 External File Loader checks this folder first; if a file isn't found there, it falls back to the original `.vbf`.
 
 {% hint style="info" %}
 **Download & Documentation**
