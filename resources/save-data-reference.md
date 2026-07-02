@@ -6,9 +6,17 @@
 
 ### What can you do with this?
 
-The Save Game Editor can view and modify essentially everything the game remembers about a player's progress, split into 5 technical sections (Main Extended Info, Global Info, Battle Info Old/New, Menu Info, Main Basic Info). This sheet documents Global Info specifically, byte by byte, across three tabs: the main ~1,974-row breakdown of every field (story flags, NPC talk counters, and more, each with its address, type, and internal VM script variable name), a quest stage tab explaining what each numeric stage value means for a given quest (for example, what "50" means for the Rogue Tomato hunt), and a global flags tab covering major story-progress checkpoints and what UI or features unlock at each one.
+A save file records everything the game remembers about your progress. The Insurgent's Toolkit's Save Game Editor can view and change nearly all of it, and this spreadsheet is the map that tells you what each part means. It focuses on the "Global Info" section, the largest and most important part of a save, and decodes it byte by byte.
 
-The Toolkit's own docs note that inventory changes specifically should go through the Inventory Editor instead, the Save Game Editor can technically touch inventory data too, but it's easy to break that way.
+**Spreadsheet contents:**
+
+- **Global Info:** the main breakdown, around 1,974 fields. Each row gives the field's memory address and data type, the group it belongs to, a human-readable label, and the internal VM script variable name that EBP scripts use to read it. This covers everything from story flags to per-NPC talk counters.
+- **Quest Stages:** for each quest, what its numeric stage value actually means. A quest stored as "50," for example, might mean "defeated the first stage." Use this to make sense of a raw stage number.
+- **Global Flags:** the major story-progress checkpoints, describing what each flag marks (for example, "after controlling Reks") and which menus or features unlock at that point.
+
+{% hint style="warning" %}
+The Save Game Editor can technically edit inventory too, but it is easy to corrupt a save that way. To add or remove items, use the Inventory Editor instead.
+{% endhint %}
 
 {% hint style="info" %}
 **Access the spreadsheet**

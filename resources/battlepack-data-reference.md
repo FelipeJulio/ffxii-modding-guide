@@ -6,7 +6,19 @@
 
 ### What can you do with this?
 
-Beyond the content IDs already covered by Inventory Contents, this sheet documents the smaller category and menu-logic lookups: battle menu categories, equipment categories, elements, status effects, weapon stances, license nodes, maps, shops, teleport locations, and more. Each of its 26 tabs corresponds to one specific numbered section inside `battle_pack.bin`, matching The Insurgent's Toolkit's Battlepack Editor section by section, so if the Toolkit calls something "Section 41: Elements," this sheet's `elements.csv` tab is the exact same data.
+`battle_pack.bin` is the single file that stores almost all of the game's battle data: actions, gear, statuses, menu structure, shops, maps, and more. This spreadsheet is the full inventory of what lives inside it, spread across 26 tabs. Every tab shares the same four columns: the identifier in hex, the same identifier in decimal, the name, and notes (which flag reserved or unused slots).
+
+**Spreadsheet contents:** the tabs fall into two kinds.
+
+- **Content ID tables** list actual game content by ID: actions (Cure, Blindna, Vox, and so on), equipment, magicks, technicks, gambits, key items, packages, rewards, mist, bazaar goods, prices, loot, and party members. These cover the same ID ranges documented in more detail in Inventory Contents.
+- **Category and enum tables** are the smaller, fixed lookups the game and its menus use to group things: battle menu categories (Attack, Magicks, Technicks, Items, Summon, and more), elements (Fire, Lightning, Ice, Earth...), status effects (KO, Stone, Petrify, Sleep...), equipment categories, weapon stances, magick categories, license node categories, concurrences (the Mist combos), maps (every named area), shops, teleport destinations, and story-point flags.
+
+One gotcha worth knowing: each tab uses its own ID numbering, local to that category. The IDs here do not line up with the shared content IDs in Inventory Contents, so treat every tab's numbers as belonging only to that tab.
+
+{% hint style="info" %}
+**Also in The Insurgent's Toolkit**
+These tabs correspond to the numbered sections of `battle_pack.bin`. You can edit the same data live under Battlepack Editor, where each tab appears as its numbered section.
+{% endhint %}
 
 {% hint style="info" %}
 **Access the spreadsheet**

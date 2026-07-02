@@ -6,14 +6,26 @@
 
 ### What can you do with this?
 
-This is the master gear stat table: attack power, defense, range, formula link, elemental affinity, and every other combat-relevant field for all 420 gear items in the game, laid out one row per item. It is built for use with The Insurgent's Toolkit's Equipment & Attributes editor, and each item's `Attrib ID` column links to the Equipment Attribute Reference sheet for its bonus stats and status effects. If a mod changes how hard a weapon hits or how much an armor blocks, it goes through this data.
+Section 13 is the game data that gives every piece of gear its mechanical stats. This spreadsheet is the full raw dump of it, one row per gear item, covering all 420 weapons, shields, helms, armor, and accessories. Each row has roughly 47 columns, though most stay blank for any given item since a weapon only uses a handful of them.
+
+The columns group into a few kinds:
+
+- **Identification:** the item's ID, name, icon, and model.
+- **Economics:** its gil price, sale value, and menu sort order.
+- **Weapon combat stats:** range, the damage formula it uses, attack power, knockback, combo and crit rates, evade, charge time, and stance. Populated for weapons.
+- **Defensive stats:** defense and magick resist. Populated for armor and shields.
+- **Attribute link:** an `Attrib ID` that points to the Equipment Attribute Reference sheet, which holds the item's bonus stats and status effects.
+- **Elemental and status block:** the element it deals, its on-hit chance, statuses it inflicts, statuses it grants while equipped, and its elemental affinities.
+
+Any change to how hard a weapon hits, how much an armor blocks, or what elemental or status properties a piece of gear carries goes through this data.
 
 {% hint style="danger" %}
-The Insurgent's Toolkit warns against reordering equipment or changing an item's type unless swapping within the same category, doing otherwise can break inventory sorting or the game's type checks. Each equipment type also has an inventory slot limit (Weapons 200, Armor 140, Accessories 48, Ammunition 32).
+Do not reorder equipment or change an item's type unless you are swapping within the same category. The game calculates gear by order and by type, so doing otherwise breaks inventory sorting and type checks. Each type also has an inventory slot limit: Weapons 200, Armor (including shields) 140, Accessories 48, Ammunition 32.
 {% endhint %}
 
-{% hint style="success" %}
-Those exact slot limits (200/140/48/32, adding up to the 420 total gear items) are directly visible in the Toolkit's own Inventory Editor dropdowns, and its live Equipment & Attributes section covers the same 420 gear entries (557 rows including headers) this sheet documents.
+{% hint style="info" %}
+**Also in The Insurgent's Toolkit**
+This data is edited live under Battlepack Editor > 13 : Equipment & Attributes.
 {% endhint %}
 
 {% hint style="info" %}

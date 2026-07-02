@@ -6,10 +6,20 @@
 
 ### What can you do with this?
 
-Before you can export or target the right file in The Insurgent's Toolkit's ARD or EBP editors, you need to know which `.ard` and `.ebp` file your current location actually uses, since many locations share the same file. This spreadsheet is that lookup, covering roughly 1,316 location entries: location name, region, the exact `.ard`/`.ebp`/map control file names behind it, and the event name where relevant. It's referenced directly from multiple Toolkit editor pages as the way to figure out the correct export path, for example the full folder structure an `.ard` export needs (`ps2data/plan_master/in/plan_map/dst_a/area/dst_a.ard.dir`).
+Nearly every area in the game is built from a few underlying files, and different named locations often share them. Before you can edit or export the right file in The Insurgent's Toolkit's ARD or EBP editors, you first need to know which files your current location actually uses. This spreadsheet is that lookup, covering roughly 1,316 location entries.
+
+Each row gives:
+
+- the **location ID**, its **region**, and its **display name** (many early entries are reserved test or debug locations),
+- the **`.ard` file** it loads (the area's enemy and unit data),
+- the **`.ebp` file** it loads (the map's event and logic scripts),
+- the **MapCtrl** reference (the map control and background), and
+- the **event name**, where one applies.
+
+Because many locations share the same `.ard` or `.ebp` file (one large area split into several named sub-locations), this sheet is how you tell whether editing one location's file will also change others. It is also how you work out the correct export path a file needs, for example the full folder structure for an `.ard` export: `ps2data/plan_master/in/plan_map/dst_a/area/dst_a.ard.dir`.
 
 {% hint style="warning" %}
-The Insurgent's Toolkit only keeps one `.ard` or `.ebp` file loaded in memory at a time. Since many locations share the same file, switching to a different location can silently overwrite unsaved changes if the new location uses a different file. Check this sheet first to see whether two locations you're editing actually share a file.
+The Insurgent's Toolkit keeps only one `.ard` or `.ebp` file loaded in memory at a time. Since many locations share the same file, switching to a different location can silently overwrite unsaved changes if the new location uses a different file. Check this sheet first to see whether two locations you are editing share a file.
 {% endhint %}
 
 {% hint style="info" %}

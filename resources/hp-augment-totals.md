@@ -6,7 +6,9 @@
 
 ### What can you do with this?
 
-The game has 12 tiers of HP augment, from +30 to +500, and a character can stack several at once. This spreadsheet exhaustively lists all 4,096 possible combinations and their combined total, so if you are planning a build (or balancing a mod around HP totals) you can search for the number you want and see exactly which augments get you there, instead of doing the math by hand.
+The game has 12 tiers of HP augment, from +30 to +500, and a character can stack several at once. Twelve augments give 2 to the 12th (4,096) possible combinations, and this spreadsheet lists every one of them with its combined total, so it is exhaustive rather than a sample.
+
+To use it, search the "Total HP" column for the bonus you want, then read across that row to see which augments make up the combination. Handy when planning a build, or when balancing a mod around specific HP totals, without doing the math by hand.
 
 {% hint style="info" %}
 **Access the spreadsheet**

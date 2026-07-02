@@ -14,3 +14,6 @@
 # Allow config files
 !.gitignore
 !.gitattributes
+
+# Ignore Claude Code local folder
+.claude/

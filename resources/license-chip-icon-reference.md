@@ -6,13 +6,25 @@
 
 ### What can you do with this?
 
-If you are using The Insurgent's Toolkit to give a custom license node its own icon, this spreadsheet is your lookup table. It lists every License Board entry (weapons, armor, magick categories, augments, gambits, technicks, and more), organized under labeled group headers like Backgrounds and character-specific overlays, alongside the exact values `license_chip.bin` stores for it: Entry Identifier, Texture Group/Section Link, Animation, color palette (Clut), Texture Entry Link, and X/Y position. Instead of guessing which values control which icon, you find the entry you want to change by name (Excalibur, Ribbon, Zodiac Spear) and copy its row's values straight into the Toolkit.
+Every node on the License Board shows a small icon, and `license_chip.bin` is the file that decides which one. This spreadsheet is the lookup table for it: one row per License Board entry (weapons, armor, magick categories, augments, gambits, technicks, and more), grouped under labeled headers such as Backgrounds and character-specific overlays.
 
-The Insurgent's Toolkit's own License Node Icons Editor page is only a one-line description of the feature, it doesn't explain what any of these values mean. This spreadsheet is the actual documentation for that editor, not a supplement to it. A few rows (labeled things like "First Overlay" or "CLEAR IT") are section separators rather than real license entries, so don't be surprised if a handful of rows don't map to an actual icon.
+For each entry, the sheet gives the raw values `license_chip.bin` stores:
+
+- **Entry Identifier** and a text link,
+- **Texture Group, Section, and Entry links** (which texture, and which part of it, to draw),
+- **Animation**,
+- **Clut Link** (the color palette), and
+- **X and Y position**.
+
+To change a node's icon, find the entry by name (Excalibur, Ribbon, Zodiac Spear) and read across its row for the values to write. A few rows are section separators rather than real entries (labeled things like "First Overlay" or "CLEAR IT"), so expect a handful that do not map to an actual icon.
+
+{% hint style="info" %}
+**Also in The Insurgent's Toolkit**
+This sheet accompanies the Toolkit's License Node Icons Editor, which lets you view and change these same values live in memory.
+{% endhint %}
 
 {% hint style="info" %}
 **Access the spreadsheet**
-Built to accompany The Insurgent's Toolkit's License Node Icons Editor.
 
 <a href="https://docs.google.com/spreadsheets/d/1TKyxjciZ-wDKQLBdx5gsGwnEM96HmsDw29qUDpwdl14/edit" class="button primary" target="_blank" data-icon="external-link-alt">Open the Spreadsheet</a>
 {% endhint %}

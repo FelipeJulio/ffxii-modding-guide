@@ -6,9 +6,17 @@
 
 ### What can you do with this?
 
-Every chest instance in the game (nearly 2,000 of them) is listed with its source file, area, spawn chance, and loot: what item and gil amount it gives normally, and what it gives if the player has a Diamond Armlet equipped. Item names come straight from Inventory Contents, so cross-check there if you need an item's full ID. The raw hex bytes are included alongside every decoded value, useful for hand-editing chest data directly instead of going through a tool.
+Nearly 2,000 treasure chests exist in the game, and this sheet documents every one of them, with the raw bytes and the decoded values side by side.
 
-Chests are edited through The Insurgent's Toolkit's EBP Editor rather than its ARD Editor, even though the location naming looks similar to ARD data. The EBP Editor only works on whichever `.ebp` file is currently loaded in memory, so for a bigger overhaul across many chests, the community-preferred tool is the VM Script De/Compiler instead, the EBP Editor is meant for small in-place tweaks you want to see the effect of immediately. If you don't already know which `.ebp` file a given area uses, check the Locations sheet first.
+**Spreadsheet contents:**
+
+- **Chest Data:** the main table, one row per chest. Each row gives the source file and area the chest belongs to, its map coordinates, its spawn chance, and any story-flag conditions that control whether it appears. Its loot is where the Diamond Armlet matters: a chest rolls one of two tables depending on whether the player has a Diamond Armlet equipped, so each row lists both the normal item and gil and the Diamond Armlet item and gil. The raw hex bytes for every field sit alongside the decoded values, for when you want to hand-edit chest data directly.
+- **Inventory:** a simple reference list of item names and their content IDs, the source the item-name fields in Chest Data are drawn from.
+
+{% hint style="info" %}
+**Also in The Insurgent's Toolkit**
+Chests are edited through the EBP Editor (listed there as "Treasures"), which works on whichever `.ebp` file is loaded in memory. Use it for small in-place tweaks; for a larger overhaul across many chests, the community-preferred tool is the FF12 VM Script Decompiler. Check the Locations sheet if you need to know which `.ebp` file an area uses.
+{% endhint %}
 
 {% hint style="info" %}
 **Access the spreadsheet**
@@ -23,4 +31,3 @@ Chests are edited through The Insurgent's Toolkit's EBP Editor rather than its A
 {% content-ref url="locations.md" %}
 [locations.md](locations.md)
 {% endcontent-ref %}
-
